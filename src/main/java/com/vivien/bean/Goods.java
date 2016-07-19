@@ -7,6 +7,10 @@ public class Goods {
     private double price;
     private String category;
 
+
+
+
+
     public String getBarcode() {
         return barcode;
     }

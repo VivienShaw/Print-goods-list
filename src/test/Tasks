@@ -1,0 +1,28 @@
+task1:
+when a user want to buy only one product
+then can print the receipt of product
+
+case1: there is no discount for this product;
+case2: buy-two-get-one-free discount;
+case3: 5% off discount;
+case4: there is two kinds of discount for the product
+       we choose buy-two-get-one-free discount when we print the receipt;
+
+
+task2:
+when a user want to buy multiple products
+there is no discount for them
+then can print the receipt of products
+
+case1: these products are the same;
+case2: these products are different;
+
+
+task3:
+when a user want to buy multiple products
+some of them have discounts
+then can print the receipt of products
+
+case1: there is buy-two-get-one-free discount;
+case2: there is 5% off discount;
+case3: there is two kinds of discount for these products
