@@ -8,26 +8,37 @@ import com.vivien.utils.Utils;
 import java.util.HashMap;
 import java.util.Map;
 
-/**
- * Created by vivie on 2016/7/20.
- */
 public class GoodsRepo {
-    Map<String,Goods> allGoods = new HashMap<String, Goods>();
+
+    public static final int NO = 0;
+    public static final int BUY_TWO_GET_ONE_FREE = 1;
+    public static final int FIVE_PERCENT_OFF = 2;
+    public static final int BOTH = 3;
+
+    public static Map<String,Goods> allGoods = new HashMap<String, Goods>();
+    public static Map<String,Integer> discountGoods = new HashMap<String, Integer>();
     String allGoodsPath = GoodsRepo.class.getClassLoader().getResource("allGoods").getPath();
+    String saleGoodsPath = GoodsRepo.class.getClassLoader().getResource("discountInfo").getPath();
 
     public GoodsRepo() {
-        this.allGoods = loadAllGoods(allGoodsPath);
+        loadAllGoods(allGoodsPath);
+        loadDiscountInfo(saleGoodsPath);
     }
 
-    private Map<String,Goods> loadAllGoods(String productsPath) {
-        Map<String,Goods> products = new HashMap<String, Goods>();
+    //the single mode
+    public static final GoodsRepo goodsRepo = new GoodsRepo();
+
+    public static GoodsRepo getInstance() {
+        return goodsRepo;
+    }
+
+    private void loadAllGoods(String productsPath) {
         JSONArray productsJson = JSONArray.parseArray(Utils.readFile(productsPath));
         for (int n = 0; n < productsJson.size(); n++) {
             JSONObject jOGoods = productsJson.getJSONObject(n);
             Goods goods = getGoodsFromJsonobject(jOGoods);
-            products.put(jOGoods.getString("barcode"), goods);
+            allGoods.put(jOGoods.getString("barcode"), goods);
         }
-        return products;
     }
 
     private Goods getGoodsFromJsonobject(JSONObject obj) {
@@ -40,11 +51,40 @@ public class GoodsRepo {
         return goods;
     }
 
-    public Map<String, Goods> getAllGoods() {
-        return allGoods;
+    public void loadDiscountInfo(String path) {
+        JSONArray discountsJson = JSONArray.parseArray(Utils.readFile(path));
+        for (int n = 0; n < discountsJson.size(); n++) {
+            JSONObject jOGoods = discountsJson.getJSONObject(n);
+            String type = jOGoods.getString("type");
+            String barcode = jOGoods.getString("barcodes");
+            String[] barcodes = barcode.split(",");
+            for (String s : barcodes) {
+                getDiscountGoods(type,s);
+            }
+        }
     }
 
-    public void setAllGoods(Map<String, Goods> allGoods) {
-        this.allGoods = allGoods;
+    public void getDiscountGoods(String type,String code) {
+        if (discountGoods.containsKey(code)) {
+            discountGoods.put(code,3);
+            return;
+        }
+
+        if(type.equals("BUY_TWO_GET_ONE_FREE")) {
+            discountGoods.put(code,1);
+            return;
+        }
+        if(type.equals("FIVE_PERCENT_OFF")) {
+            discountGoods.put(code,2);
+            return;
+        }
     }
+
+    public int getDiscountType(String code) {
+        if(!discountGoods.containsKey(code)) {
+            return 0;
+        }
+       return  discountGoods.get(code);
+    }
+
 }

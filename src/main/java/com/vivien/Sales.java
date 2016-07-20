@@ -14,7 +14,7 @@ import java.util.Map;
 public class Sales {
 
     Cart cart = new Cart();
-    GoodsRepo repo = new GoodsRepo();
+    GoodsRepo repo = GoodsRepo.getInstance();
 
     Goods goods;
     public Sales(String... barcodes) {
@@ -58,7 +58,7 @@ public class Sales {
     }
 
     public Goods getGoodsByCode (String barcode) {
-        for (Map.Entry<String,Goods> goodsEntry : repo.getAllGoods().entrySet()) {
+        for (Map.Entry<String,Goods> goodsEntry : repo.allGoods.entrySet()) {
             if (goodsEntry.getKey().equals(barcode)) {
                 if (barcode.equals("ITEM000003")) {
                     goodsEntry.getValue().setDiscountType(1);
@@ -72,4 +72,11 @@ public class Sales {
         }
         return null;
     }
+
+
+    public void putGoodstoCart() {
+
+    }
+
+
 }
