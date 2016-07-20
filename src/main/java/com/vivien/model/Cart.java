@@ -12,7 +12,7 @@ public class Cart {
 
     private List<CartItem> cart = new ArrayList<CartItem>();
     int totalPrice = 0;
-    private boolean haveDiscount = false;
+    private int haveDiscount = 0;
 
     public void addItem(CartItem item) {
         cart.add(item);
@@ -51,17 +51,21 @@ public class Cart {
         this.cart = cart;
     }
 
-    public boolean isHaveDiscount() {
+    public int getHaveDiscount() {
         return haveDiscount;
     }
 
     public void setHaveDiscount(CartItem item) {
-        if (haveDiscount) {
+        if (haveDiscount != 0) {
             return;
         }
         if (item.getGoods().getDiscountType() == 1 && item.getNumber() > 2)
-            this.haveDiscount = true;
+            this.haveDiscount = 1;
         if (item.getGoods().getDiscountType() == 3 && item.getNumber() > 2)
-            this.haveDiscount = true;
+            this.haveDiscount = 1;
+        if (item.getGoods().getDiscountType() == 2)
+            this.haveDiscount = 2;
+        if (item.getGoods().getDiscountType() == 3 && item.getNumber() <= 2)
+            this.haveDiscount = 2;
     }
 }

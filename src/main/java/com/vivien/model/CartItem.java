@@ -1,5 +1,6 @@
 package com.vivien.model;
 
+import com.sun.org.apache.xml.internal.utils.StringBufferPool;
 import com.vivien.bean.Goods;
 import com.vivien.utils.Utils;
 
@@ -16,10 +17,18 @@ public class CartItem {
     }
 
     public String printItemList(){
-        return "名称："+goods.getName()
+        StringBuffer itemList = new StringBuffer();
+        itemList.append("名称："+goods.getName()
                 +"，数量："+ number +goods.getUnit()+
                 "，单价："+ Utils.numberFormat(goods.getPrice())
-                +"(元)，小计："+Utils.numberFormat(getItemPrice())+"(元)\n";
+                +"(元)");
+        itemList.append("，小计：" + Utils.numberFormat(getItemPrice()) + "(元)");
+        if (goods.getDiscountType() == 2) {
+            itemList.append("，节省："+Utils.numberFormat(goods.getPrice() * number * 0.05)
+                    +"(元)");
+        }
+        itemList.append("\n");
+        return itemList.toString();
     }
 
     public double getItemPrice() {
@@ -28,6 +37,9 @@ public class CartItem {
         }
         if (goods.getDiscountType() == 3 && number > 2) {
             return goods.getPrice() * (number - 1);
+        }
+        if (goods.getDiscountType() == 2) {
+            return goods.getPrice() * number * 0.95;
         }
         return goods.getPrice() * number;
     }

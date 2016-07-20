@@ -81,4 +81,17 @@ public class SalesTest {
                         "总计: 4.00(元)\n" +
                         "**********************"));
     }
+
+    @Test
+    public void should_return_goodsList_with_discount_when_input_1_ITEM000006_with_five_percent_off_discount() throws Exception {
+        String barcode = "ITEM000006";
+        Sales sales = new Sales(barcode);
+        assertThat(sales.printReceipt(), is(
+                "***<没钱赚商店>购物清单***\n" +
+                        "名称：乐高数字火车，数量：1件，单价：100.00(元)，小计：95.00(元)，节省：5.00(元)\n" +
+                        "----------------------\n" +
+                        "总计: 95.00(元)\n" +
+                        "节省: 5.00(元)\n" +
+                        "**********************"));
+    }
 }
