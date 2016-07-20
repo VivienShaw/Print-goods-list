@@ -7,9 +7,19 @@ public class Goods {
     private double price;
     private String category;
 
-
-
-
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null && obj instanceof Goods) {
+            if (((Goods) obj).barcode.equals(this.barcode)
+                    && ((Goods) obj).name.equals(this.name)
+                    && ((Goods) obj).category.equals(this.category)
+                    && ((Goods) obj).price == this.price
+                    && ((Goods) obj).unit.equals(this.unit)) {
+                return true;
+            }
+        }
+        return false;
+    }
 
     public String getBarcode() {
         return barcode;

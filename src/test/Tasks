@@ -7,20 +7,6 @@ case2: when there is one product with buy-two-get-one-free discount
        then can print the receipt with no discount
 
 task2:
-buy-two-get-one-free discount
-case1: when the custom purchases same products three with buy-two-get-one-free discount
-       then can print the receipt with buy-two-get-one-free discount message
-case2: when the custom purchase same products three with buy-two-get-one-free discount and 5% free discount
-       then can print the receipt with buy-two-get-one-free discount message
-
-task3:
-5% off discount
-case1: when the custom purchases one product with 5% off discount
-       then can print the receipt with 5% off discount message
-case2: when the custom purchase one product with buy-two-get-one-free discount and 5% free discount
-       then can print the receipt with 5% off discount message
-
-task4:
 multiple products
 case1: when a user want to buy multiple same products
        there is no discount for them
@@ -28,3 +14,17 @@ case1: when a user want to buy multiple same products
 case2: when a user want to buy multiple different products
        there is no discount for them
        then can print the receipt of products
+
+task3:
+buy_two_get_one_free discount
+case1: when the custom purchases same products three with buy-two-get-one-free discount
+       then can print the receipt with buy-two-get-one-free discount message
+case2: when the custom purchase same products three with buy-two-get-one-free discount and 5% free discount
+       then can print the receipt with buy-two-get-one-free discount message
+
+task4:
+5% off discount
+case1: when the custom purchases one product with 5% off discount
+       then can print the receipt with 5% off discount message
+case2: when the custom purchase one product with buy-two-get-one-free discount and 5% free discount
+       then can print the receipt with 5% off discount message
