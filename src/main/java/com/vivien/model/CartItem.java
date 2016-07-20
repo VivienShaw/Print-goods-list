@@ -19,10 +19,13 @@ public class CartItem {
         return "名称："+goods.getName()
                 +"，数量："+ number +goods.getUnit()+
                 "，单价："+ Utils.numberFormat(goods.getPrice())
-                +"(元)，小计："+Utils.numberFormat(goods.getPrice() * number)+"(元)\n";
+                +"(元)，小计："+Utils.numberFormat(getItemPrice())+"(元)\n";
     }
 
     public double getItemPrice() {
+        if (goods.getDiscountType() == 1) {
+            return goods.getPrice() * (number - 1);
+        }
         return goods.getPrice() * number;
     }
 

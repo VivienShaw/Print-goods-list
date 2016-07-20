@@ -12,10 +12,10 @@ import java.util.List;
 public class Sales {
 
     Cart cart = new Cart();
-//    Goods goods;
+    Goods goods;
     public Sales(String... barcodes) {
         for (String barcode : barcodes) {
-            Goods goods = getGoodsByCode(barcode);
+            goods = getGoodsByCode(barcode);
             if (!cart.isContainGoods(goods)) {
                 CartItem item = new CartItem();
                 item.setGoods(goods);
@@ -35,6 +35,11 @@ public class Sales {
             productsReceipt.append(item.printItemList());
         }
         productsReceipt.append("----------------------\n");
+        if (goods.getDiscountType() == 1) {
+            productsReceipt.append("买二赠一商品：\n");
+            productsReceipt.append("名称："+goods.getName()+"，数量："+1+"袋 \n");
+            productsReceipt.append("----------------------\n");
+        }
         productsReceipt.append("总计: "+ cart.getTotalPrice()+"(元)\n");
         productsReceipt.append("**********************");
         return productsReceipt.toString();
@@ -53,6 +58,16 @@ public class Sales {
             goods.setBarcode("ITEM000002");
             goods.setName("橙汁");
             goods.setPrice(4);
+            return goods;
+        }
+        else if (barcode.equals("ITEM000003")) {
+            Goods goods = defaultGoods();
+            goods.setBarcode("ITEM000003");
+            goods.setName("奥利奥");
+            goods.setPrice(5);
+            goods.setCategory("食品");
+            goods.setUnit("袋");
+            goods.setDiscountType(1);
             return goods;
         }
         return null;

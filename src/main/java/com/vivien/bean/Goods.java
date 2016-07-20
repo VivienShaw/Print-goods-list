@@ -6,6 +6,8 @@ public class Goods {
     private String unit;
     private double price;
     private String category;
+    private int discountType;
+
 
     @Override
     public boolean equals(Object obj) {
@@ -59,5 +61,13 @@ public class Goods {
 
     public void setCategory(String category) {
         this.category = category;
+    }
+
+    public int getDiscountType() {
+        return discountType;
+    }
+
+    public void setDiscountType(int discountType) {
+        this.discountType = discountType;
     }
 }
