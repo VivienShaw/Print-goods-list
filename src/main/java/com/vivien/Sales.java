@@ -3,15 +3,19 @@ package com.vivien;
 import com.vivien.bean.Goods;
 import com.vivien.model.Cart;
 import com.vivien.model.CartItem;
+import com.vivien.repository.GoodsRepo;
 import com.vivien.utils.Utils;
 
 import java.text.DecimalFormat;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Map;
 
 public class Sales {
 
     Cart cart = new Cart();
+    GoodsRepo repo = new GoodsRepo();
+
     Goods goods;
     public Sales(String... barcodes) {
         for (String barcode : barcodes) {
@@ -25,7 +29,6 @@ public class Sales {
                 cart.getItemByGoods(goods).addNumber();
             }
         }
-
     }
 
     public String printReceipt() {
@@ -46,39 +49,14 @@ public class Sales {
     }
 
     public Goods getGoodsByCode (String barcode) {
-        if (barcode.equals("ITEM000001")) {
-            return defaultGoods();
-        } else if (barcode.equals("ITEM000000")) {
-            Goods goods = defaultGoods();
-            goods.setBarcode("ITEM000000");
-            goods.setName("雪碧");
-            return goods;
-        }else if (barcode.equals("ITEM000002")) {
-            Goods goods = defaultGoods();
-            goods.setBarcode("ITEM000002");
-            goods.setName("橙汁");
-            goods.setPrice(4);
-            return goods;
-        }
-        else if (barcode.equals("ITEM000003")) {
-            Goods goods = defaultGoods();
-            goods.setBarcode("ITEM000003");
-            goods.setName("奥利奥");
-            goods.setPrice(5);
-            goods.setUnit("袋");
-            goods.setDiscountType(1);
-            return goods;
+        for (Map.Entry<String,Goods> goodsEntry : repo.getAllGoods().entrySet()) {
+            if (goodsEntry.getKey().equals(barcode)) {
+                if (barcode.equals("ITEM000003")) {
+                    goodsEntry.getValue().setDiscountType(1);
+                }
+                return goodsEntry.getValue();
+            }
         }
         return null;
-    }
-
-    private Goods defaultGoods() {
-        Goods goods = new Goods();
-        goods.setBarcode("ITEM000001");
-        goods.setName("可乐");
-        goods.setUnit("瓶");
-        goods.setPrice(3);
-        goods.setCategory("食品");
-        return goods;
     }
 }
