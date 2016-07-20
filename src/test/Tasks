@@ -28,3 +28,10 @@ case1: when the custom purchases one product with 5% off discount
        then can print the receipt with 5% off discount message
 case2: when the custom purchase one product with buy-two-get-one-free discount and 5% free discount
        then can print the receipt with 5% off discount message
+
+task5:
+parse barcode like "ITEM000001-3"
+
+task6:
+when the custom purchases multi products with two kinds of discount
+then can print the receipt with two kinds of discount message
