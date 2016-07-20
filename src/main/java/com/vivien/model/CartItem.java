@@ -23,7 +23,7 @@ public class CartItem {
                 "，单价："+ Utils.numberFormat(goods.getPrice())
                 +"(元)");
         itemList.append("，小计：" + Utils.numberFormat(getItemPrice()) + "(元)");
-        if (goods.getDiscountType() == 2) {
+        if (goods.getDiscountType() == 2 || (goods.getDiscountType() == 3 && number <= 2)) {
             itemList.append("，节省："+Utils.numberFormat(goods.getPrice() * number * 0.05)
                     +"(元)");
         }
@@ -38,7 +38,7 @@ public class CartItem {
         if (goods.getDiscountType() == 3 && number > 2) {
             return goods.getPrice() * (number - 1);
         }
-        if (goods.getDiscountType() == 2) {
+        if (goods.getDiscountType() == 2 || (goods.getDiscountType() == 3 && number <= 2)) {
             return goods.getPrice() * number * 0.95;
         }
         return goods.getPrice() * number;

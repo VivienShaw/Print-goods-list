@@ -11,8 +11,9 @@ import com.vivien.utils.Utils;
 public class Cart {
 
     private List<CartItem> cart = new ArrayList<CartItem>();
-    int totalPrice = 0;
+    double totalPrice = 0;
     private int haveDiscount = 0;
+    private double moneySaved = 0;
 
     public void addItem(CartItem item) {
         cart.add(item);
@@ -68,13 +69,19 @@ public class Cart {
             }
             if (item.getGoods().getDiscountType() == 2) {
                 this.haveDiscount = 2;
+                moneySaved += item.getGoods().getPrice() * item.getNumber() *0.05;
                 return;
             }
             if (item.getGoods().getDiscountType() == 3 && item.getNumber() <= 2) {
                 this.haveDiscount = 2;
+                moneySaved += item.getGoods().getPrice() * item.getNumber() *0.05;
                 return;
             }
         }
+    }
+
+    public String getMoneySaved() {
+        return Utils.numberFormat(moneySaved);
     }
 
 }

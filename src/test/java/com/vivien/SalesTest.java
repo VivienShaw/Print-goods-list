@@ -95,4 +95,16 @@ public class SalesTest {
                         "**********************"));
     }
 
+    @Test
+    public void should_return_goodsList_with_discount_when_input_1_ITEM000007_with_two_kinds_of_discount() throws Exception {
+        String barcode = "ITEM000007";
+        Sales sales = new Sales(barcode);
+        assertThat(sales.printReceipt(), is(
+                "***<没钱赚商店>购物清单***\n" +
+                        "名称：足球，数量：1个，单价：35.00(元)，小计：33.25(元)，节省：1.75(元)\n" +
+                        "----------------------\n" +
+                        "总计: 33.25(元)\n" +
+                        "节省: 1.75(元)\n" +
+                        "**********************"));
+    }
 }

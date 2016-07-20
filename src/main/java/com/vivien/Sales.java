@@ -32,7 +32,6 @@ public class Sales {
             }
         }
         cart.setHaveDiscount();
-
     }
 
     public String printReceipt() {
@@ -51,7 +50,7 @@ public class Sales {
         }
         productsReceipt.append("总计: "+ cart.getTotalPrice()+"(元)");
         if (cart.getHaveDiscount() == 2) {
-            productsReceipt.append("\n节省: 5.00(元)");
+            productsReceipt.append("\n节省: " + cart.getMoneySaved() +"(元)");
         }
         productsReceipt.append("\n");
         productsReceipt.append("**********************");
@@ -63,7 +62,7 @@ public class Sales {
             if (goodsEntry.getKey().equals(barcode)) {
                 if (barcode.equals("ITEM000003")) {
                     goodsEntry.getValue().setDiscountType(1);
-                }else if (barcode.equals("ITEM000005")) {
+                }else if (barcode.equals("ITEM000005") || barcode.equals("ITEM000007")) {
                     goodsEntry.getValue().setDiscountType(3);
                 }else if (barcode.equals("ITEM000006")) {
                     goodsEntry.getValue().setDiscountType(2);
