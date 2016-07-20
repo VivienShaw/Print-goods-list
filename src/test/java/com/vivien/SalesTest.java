@@ -121,4 +121,22 @@ public class SalesTest {
                         "总计: 16.50(元)\n" +
                         "**********************"));
     }
+
+    @Test
+    public void should_return_goodsList_when_input_ITEM000008_3_and_ITEM000005_with_discount() throws Exception {
+        String[] barcodes = new String[]{"ITEM000008-3","ITEM000005"};
+        Sales sales = new Sales(barcodes);
+        assertThat(sales.printReceipt(), is(
+                "***<没钱赚商店>购物清单***\n" +
+                        "名称：尤里克斯儿童网球拍，数量：3个，单价：125.00(元)，小计：250.00(元)\n" +
+                        "名称：卫龙，数量：1袋，单价：2.00(元)，小计：1.90(元)，节省：0.10(元)\n" +
+                        "----------------------\n" +
+                        "买二赠一商品：\n" +
+                        "名称：尤里克斯儿童网球拍，数量：1个 \n" +
+                        "----------------------\n" +
+                        "总计: 251.90(元)\n" +
+                        "节省: 125.10(元)\n" +
+                        "**********************"));
+
+    }
 }
