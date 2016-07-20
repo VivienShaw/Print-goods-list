@@ -57,8 +57,8 @@ public class GoodsRepo {
             JSONObject jOGoods = discountsJson.getJSONObject(n);
             String type = jOGoods.getString("type");
             String barcode = jOGoods.getString("barcodes");
-            String[] barcodes = barcode.split(",");
-            for (String s : barcodes) {
+            String[] codes = barcode.split(",");
+            for (String s : codes) {
                 getDiscountGoods(type,s);
             }
         }
@@ -66,25 +66,36 @@ public class GoodsRepo {
 
     public void getDiscountGoods(String type,String code) {
         if (discountGoods.containsKey(code)) {
-            discountGoods.put(code,3);
+            discountGoods.put(code,BOTH);
             return;
         }
 
         if(type.equals("BUY_TWO_GET_ONE_FREE")) {
-            discountGoods.put(code,1);
+            discountGoods.put(code,BUY_TWO_GET_ONE_FREE);
             return;
         }
         if(type.equals("FIVE_PERCENT_OFF")) {
-            discountGoods.put(code,2);
+            discountGoods.put(code,FIVE_PERCENT_OFF);
             return;
         }
     }
 
-    public int getDiscountType(String code) {
+    public int getType(String code) {
         if(!discountGoods.containsKey(code)) {
-            return 0;
+            return NO;
         }
        return  discountGoods.get(code);
+    }
+
+    public Goods getGoodsByCode (String barcode) {
+        for (Map.Entry<String,Goods> goodsEntry : allGoods.entrySet()) {
+            if (goodsEntry.getKey().equals(barcode)) {
+                goodsEntry.getValue().setDiscountType(getType(barcode));
+                return goodsEntry.getValue();
+            }
+        }
+
+        return null;
     }
 
 }

@@ -64,6 +64,7 @@ public class SalesTest {
                 "名称：奥利奥，数量：1袋 \n" +
                 "----------------------\n" +
                 "总计: 10.00(元)\n" +
+                "节省: 5.00(元)\n" +
                 "**********************"));
     }
 
@@ -79,6 +80,7 @@ public class SalesTest {
                         "名称：卫龙，数量：1袋 \n" +
                         "----------------------\n" +
                         "总计: 4.00(元)\n" +
+                        "节省: 2.00(元)\n" +
                         "**********************"));
     }
 
@@ -105,6 +107,18 @@ public class SalesTest {
                         "----------------------\n" +
                         "总计: 33.25(元)\n" +
                         "节省: 1.75(元)\n" +
+                        "**********************"));
+    }
+
+    @Test
+    public void should_return_goodsList_when_input_ITEM000009_3_with_no_discount() throws Exception {
+        String barcode = "ITEM000009-3";
+        Sales sales = new Sales(barcode);
+        assertThat(sales.printReceipt(), is(
+                "***<没钱赚商店>购物清单***\n" +
+                        "名称：哈尔滨啤酒，数量：3瓶，单价：5.50(元)，小计：16.50(元)\n" +
+                        "----------------------\n" +
+                        "总计: 16.50(元)\n" +
                         "**********************"));
     }
 }

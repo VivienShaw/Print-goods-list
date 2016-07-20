@@ -13,70 +13,58 @@ import java.util.Map;
 
 public class Sales {
 
-    Cart cart = new Cart();
+    Cart cart;
     GoodsRepo repo = GoodsRepo.getInstance();
-
     Goods goods;
-    public Sales(String... barcodes) {
-        for (String barcode : barcodes) {
-            goods = getGoodsByCode(barcode);
-            if (!cart.isContainGoods(goods)) {
-                CartItem item = new CartItem();
-                item.setGoods(goods);
-                item.setNumber(1);
-                cart.addItem(item);
-//                cart.setHaveDiscount(item);
-            }else {
-                cart.getItemByGoods(goods).addNumber();
-//                cart.setHaveDiscount(cart.getItemByGoods(goods));
-            }
-        }
-        cart.setHaveDiscount();
+
+
+    public Sales(String... codes) {
+        cart = new Cart();
+
+        putGoodsToCart(parseBarcode(codes));
     }
 
     public String printReceipt() {
         StringBuilder productsReceipt = new StringBuilder();
         productsReceipt.append("***<没钱赚商店>购物清单***\n");
-        for (CartItem item : cart.getCart()) {
-            productsReceipt.append(item.printItemList());
-        }
+        productsReceipt.append(cart.getCartItemString());
         productsReceipt.append("----------------------\n");
-        if (cart.getHaveDiscount() == 1) {
-            for (CartItem item : cart.getCart()) {
-                productsReceipt.append("买二赠一商品：\n");
-                productsReceipt.append("名称："+item.getGoods().getName()+"，数量："+1+"袋 \n");
-                productsReceipt.append("----------------------\n");
-            }
-        }
-        productsReceipt.append("总计: "+ cart.getTotalPrice()+"(元)");
-        if (cart.getHaveDiscount() == 2) {
-            productsReceipt.append("\n节省: " + cart.getMoneySaved() +"(元)");
-        }
-        productsReceipt.append("\n");
-        productsReceipt.append("**********************");
+        productsReceipt.append(cart.getBuyTwoFreeOneList());
+        productsReceipt.append(cart.getTotalPrice());
         return productsReceipt.toString();
     }
 
-    public Goods getGoodsByCode (String barcode) {
-        for (Map.Entry<String,Goods> goodsEntry : repo.allGoods.entrySet()) {
-            if (goodsEntry.getKey().equals(barcode)) {
-                if (barcode.equals("ITEM000003")) {
-                    goodsEntry.getValue().setDiscountType(1);
-                }else if (barcode.equals("ITEM000005") || barcode.equals("ITEM000007")) {
-                    goodsEntry.getValue().setDiscountType(3);
-                }else if (barcode.equals("ITEM000006")) {
-                    goodsEntry.getValue().setDiscountType(2);
-                }
-                return goodsEntry.getValue();
+
+    public void putGoodsToCart(String... codes) {
+        for (String barcode : codes) {
+            goods = repo.getGoodsByCode(barcode);
+            if (cart.isContainGoods(goods)) {
+                cart.getItemByGoods(goods).increaseNumber();
+                cart.judgeSale(cart.getItemByGoods(goods));
+                continue;
             }
+
+            CartItem item = new CartItem();
+            item.setGoods(goods);
+            item.setNumber(1);
+            cart.addItem(item);
+            cart.judgeSale(item);
         }
-        return null;
     }
 
+    public String[] parseBarcode(String... barcodes) {
+        StringBuilder str = new StringBuilder();
+        for (String barcode : barcodes) {
+            if (barcode.contains("-")) {
+                int k = Integer.parseInt(barcode.split("-")[1]);
+                for (int i = 0;i<k;i++) {
+                    str.append(barcode.split("-")[0]+" ");
+                }
+                continue;
+            }
 
-    public void putGoodstoCart() {
-
+            str.append(barcode+" ");
+        }
+        return str.toString().trim().split(" ");
     }
-
-
 }

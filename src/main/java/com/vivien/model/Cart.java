@@ -5,18 +5,34 @@ import com.vivien.bean.Goods;
 import java.util.ArrayList;
 import java.util.List;
 import com.vivien.utils.Utils;
-/**
- * Created by vivie on 2016/7/20.
- */
+
 public class Cart {
 
-    private List<CartItem> cart = new ArrayList<CartItem>();
-    double totalPrice = 0;
-    private int haveDiscount = 0;
-    private double moneySaved = 0;
+    private List<CartItem> cart;
+    private boolean isSale;
+    private boolean isSale_BTFO;
+
+
+
+    public Cart () {
+        cart = new ArrayList<CartItem>();
+        isSale = false;
+        isSale_BTFO = false;
+    }
 
     public void addItem(CartItem item) {
         cart.add(item);
+
+    }
+
+    public void judgeSale(CartItem item) {
+        if (!isSale) {
+            setSale(item);
+        }
+
+        if (!isSale_BTFO) {
+            setSale_BTFO(item);
+        }
     }
 
     public CartItem getItemByGoods(Goods goods) {
@@ -28,6 +44,25 @@ public class Cart {
         return null;
     }
 
+    public void setSale(CartItem item) {
+        if (item.getGoods().getDiscountType() == 2 || item.getGoods().getDiscountType() == 3) {
+            isSale =  true;
+            return;
+        }
+
+        if (item.getGoods().getDiscountType() == 1 && item.getNumber() >2 ) {
+            isSale =  true;
+            return;
+        }
+    }
+
+    public void setSale_BTFO(CartItem item) {
+        if ((item.getGoods().getDiscountType() == 1 || item.getGoods().getDiscountType() == 3)
+                && item.getNumber() >2 ) {
+            isSale_BTFO = true;
+        }
+    }
+
     public boolean isContainGoods(Goods goods) {
         for (CartItem cartItem : cart) {
             if (cartItem.getGoods() != null && cartItem.getGoods().equals(goods))
@@ -37,6 +72,32 @@ public class Cart {
     }
 
     public String getTotalPrice() {
+
+        String str = isSale ? "节省: " + getSavedMoney() + "(元)\n" : "" ;
+
+        return "总计: " + getAllCost() + "(元)\n" + str + "**********************";
+//        return Utils.numberFormat(totalPrice);
+    }
+
+    public String getBuyTwoFreeOneList() {
+        StringBuilder stringBuilder = new StringBuilder();
+        if (isSale_BTFO) {
+            stringBuilder.append("买二赠一商品：\n");
+            for (CartItem cartItem : cart) {
+                stringBuilder.append(cartItem.printDiscountItem());
+            }
+            stringBuilder.append("----------------------\n");
+        }
+        return stringBuilder.toString();
+    }
+
+    public List<CartItem> getCart() {
+        return cart;
+    }
+
+
+    public String getAllCost() {
+        double totalPrice = 0;
         for (CartItem cartItem : cart) {
             totalPrice += cartItem.getItemPrice();
         }
@@ -44,44 +105,23 @@ public class Cart {
         return Utils.numberFormat(totalPrice);
     }
 
-    public List<CartItem> getCart() {
-        return cart;
-    }
-
-    public void setCart(List<CartItem> cart) {
-        this.cart = cart;
-    }
-
-    public int getHaveDiscount() {
-        return haveDiscount;
-    }
-
-    public void setHaveDiscount() {
+    public String getCartItemString() {
+        StringBuilder stringBuilder = new StringBuilder();
         for (CartItem item : cart) {
-            if (this.haveDiscount != 0) return;
-            if (item.getGoods().getDiscountType() == 1 && item.getNumber() > 2) {
-                this.haveDiscount = 1;
-                return;
-            }
-            if (item.getGoods().getDiscountType() == 3 && item.getNumber() > 2) {
-                this.haveDiscount = 1;
-                return;
-            }
-            if (item.getGoods().getDiscountType() == 2) {
-                this.haveDiscount = 2;
-                moneySaved += item.getGoods().getPrice() * item.getNumber() *0.05;
-                return;
-            }
-            if (item.getGoods().getDiscountType() == 3 && item.getNumber() <= 2) {
-                this.haveDiscount = 2;
-                moneySaved += item.getGoods().getPrice() * item.getNumber() *0.05;
-                return;
-            }
+            stringBuilder.append(item.printItemList());
         }
+
+        return stringBuilder.toString();
     }
 
-    public String getMoneySaved() {
-        return Utils.numberFormat(moneySaved);
+
+    public String getSavedMoney() {
+        double savedMoney = 0;
+        for (CartItem item : cart) {
+            savedMoney += item.getItemSaved();
+        }
+
+        return Utils.numberFormat(savedMoney);
     }
 
 }
