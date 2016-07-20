@@ -65,7 +65,6 @@ public class Sales {
             goods.setBarcode("ITEM000003");
             goods.setName("奥利奥");
             goods.setPrice(5);
-            goods.setCategory("食品");
             goods.setUnit("袋");
             goods.setDiscountType(1);
             return goods;
@@ -79,7 +78,7 @@ public class Sales {
         goods.setName("可乐");
         goods.setUnit("瓶");
         goods.setPrice(3);
-        goods.setCategory("饮料");
+        goods.setCategory("食品");
         return goods;
     }
 }
