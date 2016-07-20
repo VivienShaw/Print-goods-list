@@ -25,10 +25,13 @@ public class Sales {
                 item.setGoods(goods);
                 item.setNumber(1);
                 cart.addItem(item);
+                cart.setHaveDiscount(item);
             }else {
                 cart.getItemByGoods(goods).addNumber();
+                cart.setHaveDiscount(cart.getItemByGoods(goods));
             }
         }
+
     }
 
     public String printReceipt() {
@@ -38,10 +41,12 @@ public class Sales {
             productsReceipt.append(item.printItemList());
         }
         productsReceipt.append("----------------------\n");
-        if (goods.getDiscountType() == 1) {
-            productsReceipt.append("买二赠一商品：\n");
-            productsReceipt.append("名称："+goods.getName()+"，数量："+1+"袋 \n");
-            productsReceipt.append("----------------------\n");
+        if (cart.isHaveDiscount()) {
+            for (CartItem item : cart.getCart()) {
+                productsReceipt.append("买二赠一商品：\n");
+                productsReceipt.append("名称："+item.getGoods().getName()+"，数量："+1+"袋 \n");
+                productsReceipt.append("----------------------\n");
+            }
         }
         productsReceipt.append("总计: "+ cart.getTotalPrice()+"(元)\n");
         productsReceipt.append("**********************");
@@ -53,6 +58,8 @@ public class Sales {
             if (goodsEntry.getKey().equals(barcode)) {
                 if (barcode.equals("ITEM000003")) {
                     goodsEntry.getValue().setDiscountType(1);
+                }else if (barcode.equals("ITEM000005")) {
+                    goodsEntry.getValue().setDiscountType(3);
                 }
                 return goodsEntry.getValue();
             }

@@ -67,4 +67,18 @@ public class SalesTest {
                 "**********************"));
     }
 
+    @Test
+    public void should_return_goodsList_with_discount_when_input_3_ITEM000005_with_discount_one_and_discount_two() throws Exception {
+        String[] barcodes = new String[]{"ITEM000005","ITEM000005","ITEM000005"};
+        Sales sales = new Sales(barcodes);
+        assertThat(sales.printReceipt(), is(
+                "***<没钱赚商店>购物清单***\n" +
+                        "名称：卫龙，数量：3袋，单价：2.00(元)，小计：4.00(元)\n" +
+                        "----------------------\n" +
+                        "买二赠一商品：\n" +
+                        "名称：卫龙，数量：1袋 \n" +
+                        "----------------------\n" +
+                        "总计: 4.00(元)\n" +
+                        "**********************"));
+    }
 }

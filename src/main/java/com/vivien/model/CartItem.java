@@ -26,6 +26,9 @@ public class CartItem {
         if (goods.getDiscountType() == 1) {
             return goods.getPrice() * (number - 1);
         }
+        if (goods.getDiscountType() == 3 && number > 2) {
+            return goods.getPrice() * (number - 1);
+        }
         return goods.getPrice() * number;
     }
 
@@ -45,4 +48,5 @@ public class CartItem {
     public void setNumber(int number) {
         this.number = number;
     }
+
 }

@@ -6,7 +6,7 @@ public class Goods {
     private String unit;
     private double price;
     private String category;
-    private int discountType;
+    private int discountType = 0;
 
 
     @Override
