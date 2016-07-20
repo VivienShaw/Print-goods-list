@@ -4,8 +4,6 @@
     <list default="true" id="9d50f85e-a4e4-4179-b137-f49a216c5eac" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/vivien/Sales.java" afterPath="$PROJECT_DIR$/src/main/java/com/vivien/Sales.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/vivien/model/Cart.java" afterPath="$PROJECT_DIR$/src/main/java/com/vivien/model/Cart.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/vivien/model/CartItem.java" afterPath="$PROJECT_DIR$/src/main/java/com/vivien/model/CartItem.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/allGoods" afterPath="$PROJECT_DIR$/src/main/resources/allGoods" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/vivien/SalesTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/vivien/SalesTest.java" />
     </list>
     <ignored path="Print-goods-list.iws" />
@@ -61,8 +59,8 @@
       <file leaf-file-name="SalesTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/vivien/SalesTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="93" column="36" selection-start-line="93" selection-start-column="36" selection-end-line="93" selection-end-column="36" />
+            <state relative-caret-position="195">
+              <caret line="75" column="26" selection-start-line="75" selection-start-column="26" selection-end-line="75" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -70,11 +68,21 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="allGoods" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/allGoods">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="378">
+              <caret line="55" column="15" selection-start-line="55" selection-start-column="15" selection-end-line="55" selection-end-column="15" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="Sales.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/vivien/Sales.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="124">
-              <caret line="45" column="13" selection-start-line="45" selection-start-column="13" selection-end-line="45" selection-end-column="13" />
+            <state relative-caret-position="51">
+              <caret line="44" column="39" selection-start-line="44" selection-start-column="39" selection-end-line="44" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -85,7 +93,7 @@
       <file leaf-file-name="GoodsRepo.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/vivien/repository/GoodsRepo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="724">
+            <state relative-caret-position="123">
               <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -104,13 +112,12 @@
       <file leaf-file-name="CartItem.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/vivien/model/CartItem.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="26" column="30" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
+            <state relative-caret-position="123">
+              <caret line="48" column="0" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#296#297#0" expanded="true" />
                 <element signature="e#320#321#0" expanded="true" />
-                <element signature="e#1361#1362#0" expanded="true" />
                 <element signature="e#1389#1390#0" expanded="true" />
                 <element signature="e#1430#1431#0" expanded="true" />
                 <element signature="e#1464#1465#0" expanded="true" />
@@ -123,11 +130,21 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="Utils.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/vivien/utils/Utils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="147">
+              <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="Cart.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/vivien/model/Cart.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="182">
-              <caret line="39" column="43" selection-start-line="39" selection-start-column="43" selection-end-line="39" selection-end-column="43" />
+            <state relative-caret-position="274">
+              <caret line="73" column="37" selection-start-line="73" selection-start-column="37" selection-end-line="73" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#250#260#0" expanded="true" />
@@ -145,13 +162,15 @@
       <file leaf-file-name="Goods.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/vivien/bean/Goods.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
+            <state relative-caret-position="123">
               <caret line="66" column="0" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
               <folding>
                 <element signature="e#886#887#0" expanded="true" />
                 <element signature="e#913#914#0" expanded="true" />
                 <element signature="e#1016#1017#0" expanded="true" />
                 <element signature="e#1043#1044#0" expanded="true" />
+                <element signature="e#1147#1148#0" expanded="true" />
+                <element signature="e#1175#1176#0" expanded="true" />
                 <element signature="e#1476#1477#0" expanded="true" />
                 <element signature="e#1529#1530#0" expanded="true" />
                 <element signature="e#1577#1578#0" expanded="true" />
@@ -492,10 +511,11 @@
         <option value="$PROJECT_DIR$/src/main/java/com/vivien/repository/GoodsRepo.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/vivien/bean/Goods.java" />
         <option value="$PROJECT_DIR$/src/main/resources/allGoods" />
-        <option value="$PROJECT_DIR$/src/main/java/com/vivien/model/Cart.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/vivien/SalesTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/vivien/model/CartItem.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/vivien/SalesTest.java" />
+        <option value="D:/learning_program/JAVA/jdk/jre/lib/rt.jar!/sun/reflect/NativeMethodAccessorImpl.class" />
         <option value="$PROJECT_DIR$/src/main/java/com/vivien/Sales.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/vivien/model/Cart.java" />
       </list>
     </option>
   </component>
@@ -571,6 +591,10 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -709,7 +733,7 @@
       <recent name="com.vivien" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SalesTest.should_return_goodsList_with_discount_when_input_1_ITEM000006_with_five_percent_off_discount">
+  <component name="RunManager" selected="JUnit.SalesTest.should_return_goodsList_with_discount_when_input_3_ITEM000005_with_discount_one_and_discount_two">
     <configuration default="false" name="SalesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -1083,9 +1107,9 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.SalesTest.should_return_goodsList_with_discount_when_input_1_ITEM000006_with_five_percent_off_discount" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.SalesTest.should_return_goodsList_with_discount_when_input_3_ITEM000005_with_discount_one_and_discount_two" />
         <item index="1" class="java.lang.String" itemvalue="JUnit.SalesTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.SalesTest.should_return_goodsList_with_discount_when_input_3_ITEM000005_with_discount_one_and_discount_two" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.SalesTest.should_return_goodsList_with_discount_when_input_1_ITEM000006_with_five_percent_off_discount" />
         <item index="3" class="java.lang.String" itemvalue="JUnit.SalesTest.should_return_goodsList_with_discount_when_input_3_ITEM000003_with_buy_two_get_one_free_discount" />
         <item index="4" class="java.lang.String" itemvalue="JUnit.SalesTest.should_return_goodsList_when_input_3_ITEM000000_without_discount" />
       </list>
@@ -1108,35 +1132,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SalesTest_should_return_goodsList_with_discount_when_input_1_ITEM000006_with_five_percent_off_discount - 2016.07.20 at 14h 40m 22s.xml">
-      <configuration name="SalesTest.should_return_goodsList_with_discount_when_input_1_ITEM000006_with_five_percent_off_discount" configurationId="JUnit" />
+    <history-entry file="SalesTest - 2016.07.20 at 15h 15m 19s.xml">
+      <configuration name="SalesTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SalesTest_should_return_goodsList_with_discount_when_input_1_ITEM000006_with_five_percent_off_discount - 2016.07.20 at 14h 46m 22s.xml">
-      <configuration name="SalesTest.should_return_goodsList_with_discount_when_input_1_ITEM000006_with_five_percent_off_discount" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SalesTest_should_return_goodsList_with_discount_when_input_1_ITEM000006_with_five_percent_off_discount - 2016.07.20 at 14h 47m 44s.xml">
-      <configuration name="SalesTest.should_return_goodsList_with_discount_when_input_1_ITEM000006_with_five_percent_off_discount" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SalesTest_should_return_goodsList_with_discount_when_input_1_ITEM000006_with_five_percent_off_discount - 2016.07.20 at 14h 49m 30s.xml">
-      <configuration name="SalesTest.should_return_goodsList_with_discount_when_input_1_ITEM000006_with_five_percent_off_discount" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SalesTest_should_return_goodsList_with_discount_when_input_1_ITEM000006_with_five_percent_off_discount - 2016.07.20 at 15h 00m 34s.xml">
-      <configuration name="SalesTest.should_return_goodsList_with_discount_when_input_1_ITEM000006_with_five_percent_off_discount" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SalesTest_should_return_goodsList_with_discount_when_input_1_ITEM000006_with_five_percent_off_discount - 2016.07.20 at 15h 02m 11s.xml">
-      <configuration name="SalesTest.should_return_goodsList_with_discount_when_input_1_ITEM000006_with_five_percent_off_discount" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SalesTest_should_return_goodsList_with_discount_when_input_1_ITEM000006_with_five_percent_off_discount - 2016.07.20 at 15h 02m 58s.xml">
-      <configuration name="SalesTest.should_return_goodsList_with_discount_when_input_1_ITEM000006_with_five_percent_off_discount" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SalesTest_should_return_goodsList_with_discount_when_input_1_ITEM000006_with_five_percent_off_discount - 2016.07.20 at 15h 04m 44s.xml">
-      <configuration name="SalesTest.should_return_goodsList_with_discount_when_input_1_ITEM000006_with_five_percent_off_discount" configurationId="JUnit" />
+    <history-entry file="SalesTest - 2016.07.20 at 15h 16m 04s.xml">
+      <configuration name="SalesTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="SalesTest_should_return_goodsList_with_discount_when_input_1_ITEM000006_with_five_percent_off_discount - 2016.07.20 at 15h 07m 40s.xml">
       <configuration name="SalesTest.should_return_goodsList_with_discount_when_input_1_ITEM000006_with_five_percent_off_discount" configurationId="JUnit" />
     </history-entry>
     <history-entry file="SalesTest_should_return_goodsList_with_discount_when_input_1_ITEM000006_with_five_percent_off_discount - 2016.07.20 at 15h 08m 30s.xml">
       <configuration name="SalesTest.should_return_goodsList_with_discount_when_input_1_ITEM000006_with_five_percent_off_discount" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SalesTest_should_return_goodsList_with_discount_when_input_1_ITEM000006_with_five_percent_off_discount - 2016.07.20 at 15h 09m 48s.xml">
+      <configuration name="SalesTest.should_return_goodsList_with_discount_when_input_1_ITEM000006_with_five_percent_off_discount" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SalesTest_should_return_goodsList_with_discount_when_input_3_ITEM000005_with_discount_one_and_discount_two - 2016.07.20 at 15h 21m 12s.xml">
+      <configuration name="SalesTest.should_return_goodsList_with_discount_when_input_3_ITEM000005_with_discount_one_and_discount_two" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SalesTest_should_return_goodsList_with_discount_when_input_3_ITEM000005_with_discount_one_and_discount_two - 2016.07.20 at 15h 23m 02s.xml">
+      <configuration name="SalesTest.should_return_goodsList_with_discount_when_input_3_ITEM000005_with_discount_one_and_discount_two" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SalesTest_should_return_goodsList_with_discount_when_input_3_ITEM000005_with_discount_one_and_discount_two - 2016.07.20 at 15h 27m 57s.xml">
+      <configuration name="SalesTest.should_return_goodsList_with_discount_when_input_3_ITEM000005_with_discount_one_and_discount_two" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SalesTest_should_return_goodsList_with_discount_when_input_3_ITEM000005_with_discount_one_and_discount_two - 2016.07.20 at 15h 30m 55s.xml">
+      <configuration name="SalesTest.should_return_goodsList_with_discount_when_input_3_ITEM000005_with_discount_one_and_discount_two" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SalesTest_should_return_goodsList_with_discount_when_input_3_ITEM000005_with_discount_one_and_discount_two - 2016.07.20 at 15h 34m 23s.xml">
+      <configuration name="SalesTest.should_return_goodsList_with_discount_when_input_3_ITEM000005_with_discount_one_and_discount_two" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -1145,23 +1169,23 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32569557" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32569557" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.57610476" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29459903" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25531915" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.57610476" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29459903" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25531915" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19213313" sideWeight="0.4922179" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.078668684" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.078668684" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2473525" sideWeight="0.5077821" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34697217" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2473525" sideWeight="0.5077821" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34697217" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1183,7 +1207,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="8" />
+      <option name="time" value="11" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1229,6 +1253,8 @@
             <element signature="e#913#914#0" expanded="true" />
             <element signature="e#1016#1017#0" expanded="true" />
             <element signature="e#1043#1044#0" expanded="true" />
+            <element signature="e#1147#1148#0" expanded="true" />
+            <element signature="e#1175#1176#0" expanded="true" />
             <element signature="e#1476#1477#0" expanded="true" />
             <element signature="e#1529#1530#0" expanded="true" />
             <element signature="e#1577#1578#0" expanded="true" />
@@ -1273,6 +1299,8 @@
             <element signature="e#913#914#0" expanded="true" />
             <element signature="e#1016#1017#0" expanded="true" />
             <element signature="e#1043#1044#0" expanded="true" />
+            <element signature="e#1147#1148#0" expanded="true" />
+            <element signature="e#1175#1176#0" expanded="true" />
             <element signature="e#1476#1477#0" expanded="true" />
             <element signature="e#1529#1530#0" expanded="true" />
             <element signature="e#1577#1578#0" expanded="true" />
@@ -1354,24 +1382,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/Tasks">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/vivien/utils/Utils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="28" column="24" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
@@ -1419,33 +1429,51 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/vivien/bean/Goods.java">
+    <entry file="file://$PROJECT_DIR$/src/test/Tasks">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="66" column="0" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
-          <folding>
-            <element signature="e#886#887#0" expanded="true" />
-            <element signature="e#913#914#0" expanded="true" />
-            <element signature="e#1016#1017#0" expanded="true" />
-            <element signature="e#1043#1044#0" expanded="true" />
-            <element signature="e#1476#1477#0" expanded="true" />
-            <element signature="e#1529#1530#0" expanded="true" />
-            <element signature="e#1577#1578#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="108">
+          <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/allGoods">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="354">
-          <caret line="48" column="15" selection-start-line="48" selection-start-column="15" selection-end-line="48" selection-end-column="15" />
+        <state relative-caret-position="378">
+          <caret line="55" column="15" selection-start-line="55" selection-start-column="15" selection-end-line="55" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-core/1.3/1dc37250fbc78e23a65a67fbbaf71d2e9cbc3c0b/hamcrest-core-1.3-sources.jar!/org/hamcrest/core/Is.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="65" column="0" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
+          <folding>
+            <element signature="e#1820#1821#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vivien/utils/Utils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/learning_program/JAVA/jdk/jre/lib/rt.jar!/sun/reflect/NativeMethodAccessorImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/vivien/repository/GoodsRepo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="724">
+        <state relative-caret-position="123">
           <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1460,10 +1488,57 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vivien/Sales.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="44" column="39" selection-start-line="44" selection-start-column="39" selection-end-line="44" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vivien/bean/Goods.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="66" column="0" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
+          <folding>
+            <element signature="e#886#887#0" expanded="true" />
+            <element signature="e#913#914#0" expanded="true" />
+            <element signature="e#1016#1017#0" expanded="true" />
+            <element signature="e#1043#1044#0" expanded="true" />
+            <element signature="e#1147#1148#0" expanded="true" />
+            <element signature="e#1175#1176#0" expanded="true" />
+            <element signature="e#1476#1477#0" expanded="true" />
+            <element signature="e#1529#1530#0" expanded="true" />
+            <element signature="e#1577#1578#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vivien/model/CartItem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="48" column="0" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#296#297#0" expanded="true" />
+            <element signature="e#320#321#0" expanded="true" />
+            <element signature="e#1389#1390#0" expanded="true" />
+            <element signature="e#1430#1431#0" expanded="true" />
+            <element signature="e#1464#1465#0" expanded="true" />
+            <element signature="e#1494#1495#0" expanded="true" />
+            <element signature="e#1523#1524#0" expanded="true" />
+            <element signature="e#1564#1565#0" expanded="true" />
+            <element signature="e#1600#1601#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/vivien/model/Cart.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="39" column="43" selection-start-line="39" selection-start-column="43" selection-end-line="39" selection-end-column="43" />
+        <state relative-caret-position="274">
+          <caret line="73" column="37" selection-start-line="73" selection-start-column="37" selection-end-line="73" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#250#260#0" expanded="true" />
@@ -1477,40 +1552,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/vivien/model/CartItem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="26" column="30" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#296#297#0" expanded="true" />
-            <element signature="e#320#321#0" expanded="true" />
-            <element signature="e#1361#1362#0" expanded="true" />
-            <element signature="e#1389#1390#0" expanded="true" />
-            <element signature="e#1430#1431#0" expanded="true" />
-            <element signature="e#1464#1465#0" expanded="true" />
-            <element signature="e#1494#1495#0" expanded="true" />
-            <element signature="e#1523#1524#0" expanded="true" />
-            <element signature="e#1564#1565#0" expanded="true" />
-            <element signature="e#1600#1601#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/vivien/Sales.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="45" column="13" selection-start-line="45" selection-start-column="13" selection-end-line="45" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/vivien/SalesTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="93" column="36" selection-start-line="93" selection-start-column="36" selection-end-line="93" selection-end-column="36" />
+        <state relative-caret-position="195">
+          <caret line="75" column="26" selection-start-line="75" selection-start-column="26" selection-end-line="75" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

@@ -25,12 +25,13 @@ public class Sales {
                 item.setGoods(goods);
                 item.setNumber(1);
                 cart.addItem(item);
-                cart.setHaveDiscount(item);
+//                cart.setHaveDiscount(item);
             }else {
                 cart.getItemByGoods(goods).addNumber();
-                cart.setHaveDiscount(cart.getItemByGoods(goods));
+//                cart.setHaveDiscount(cart.getItemByGoods(goods));
             }
         }
+        cart.setHaveDiscount();
 
     }
 

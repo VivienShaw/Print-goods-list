@@ -55,17 +55,26 @@ public class Cart {
         return haveDiscount;
     }
 
-    public void setHaveDiscount(CartItem item) {
-        if (haveDiscount != 0) {
-            return;
+    public void setHaveDiscount() {
+        for (CartItem item : cart) {
+            if (this.haveDiscount != 0) return;
+            if (item.getGoods().getDiscountType() == 1 && item.getNumber() > 2) {
+                this.haveDiscount = 1;
+                return;
+            }
+            if (item.getGoods().getDiscountType() == 3 && item.getNumber() > 2) {
+                this.haveDiscount = 1;
+                return;
+            }
+            if (item.getGoods().getDiscountType() == 2) {
+                this.haveDiscount = 2;
+                return;
+            }
+            if (item.getGoods().getDiscountType() == 3 && item.getNumber() <= 2) {
+                this.haveDiscount = 2;
+                return;
+            }
         }
-        if (item.getGoods().getDiscountType() == 1 && item.getNumber() > 2)
-            this.haveDiscount = 1;
-        if (item.getGoods().getDiscountType() == 3 && item.getNumber() > 2)
-            this.haveDiscount = 1;
-        if (item.getGoods().getDiscountType() == 2)
-            this.haveDiscount = 2;
-        if (item.getGoods().getDiscountType() == 3 && item.getNumber() <= 2)
-            this.haveDiscount = 2;
     }
+
 }
