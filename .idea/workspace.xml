@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9d50f85e-a4e4-4179-b137-f49a216c5eac" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/vivien/Sales.java" afterPath="$PROJECT_DIR$/src/main/java/com/vivien/Sales.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/vivien/SalesTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/vivien/SalesTest.java" />
-    </list>
+    <list default="true" id="9d50f85e-a4e4-4179-b137-f49a216c5eac" name="Default" comment="" />
     <ignored path="Print-goods-list.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -60,7 +56,7 @@
         <entry file="file://$PROJECT_DIR$/src/test/Tasks">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="216">
-              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="29" />
+              <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -69,7 +65,7 @@
       <file leaf-file-name="SalesTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/vivien/SalesTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
+            <state relative-caret-position="48">
               <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -373,8 +369,8 @@
         <option value="$PROJECT_DIR$/src/main/java/com/vivien/bean/Goods.java" />
         <option value="$PROJECT_DIR$/src/resource/allGoods" />
         <option value="$PROJECT_DIR$/src/test/Tasks" />
-        <option value="$PROJECT_DIR$/src/test/java/com/vivien/SalesTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/vivien/Sales.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/vivien/SalesTest.java" />
       </list>
     </option>
   </component>
@@ -884,6 +880,9 @@
     <servers />
   </component>
   <component name="TestHistory">
+    <history-entry file="SalesTest - 2016.07.20 at 09h 47m 03s.xml">
+      <configuration name="SalesTest" configurationId="JUnit" />
+    </history-entry>
     <history-entry file="SalesTest_should_return_goodList_when_input_ITEM000000_with_buy_two_get_one_free_discount - 2016.07.20 at 09h 46m 58s.xml">
       <configuration name="SalesTest.should_return_goodList_when_input_ITEM000000_with_buy_two_get_one_free_discount" configurationId="JUnit" />
     </history-entry>
@@ -908,7 +907,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -918,8 +917,8 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.57610476" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32569557" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24386252" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32569557" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.43862522" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19213313" sideWeight="0.4922179" order="0" side_tool="false" content_ui="combo" />
@@ -1118,14 +1117,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/Tasks">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/vivien/Sales.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="311">
@@ -1136,9 +1127,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/Tasks">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/vivien/SalesTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
+        <state relative-caret-position="48">
           <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
