@@ -43,11 +43,16 @@ public class Sales {
     public Goods getGoodsByCode (String barcode) {
         if (barcode.equals("ITEM000001")) {
             return defaultGoods();
-
         } else if (barcode.equals("ITEM000000")) {
             Goods goods = defaultGoods();
             goods.setBarcode("ITEM000000");
             goods.setName("雪碧");
+            return goods;
+        }else if (barcode.equals("ITEM000002")) {
+            Goods goods = defaultGoods();
+            goods.setBarcode("ITEM000002");
+            goods.setName("橙汁");
+            goods.setPrice(4);
             return goods;
         }
         return null;
