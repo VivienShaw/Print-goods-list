@@ -30,7 +30,7 @@ public class Sales {
         productsReceipt.append(cart.getCartItemString());
         productsReceipt.append("----------------------\n");
         productsReceipt.append(cart.getBuyTwoFreeOneList());
-        productsReceipt.append(cart.getTotalPrice());
+        productsReceipt.append(cart.printTotalPrice());
         return productsReceipt.toString();
     }
 
@@ -43,7 +43,6 @@ public class Sales {
                 cart.judgeSale(cart.getItemByGoods(goods));
                 continue;
             }
-
             CartItem item = new CartItem();
             item.setGoods(goods);
             item.setNumber(1);

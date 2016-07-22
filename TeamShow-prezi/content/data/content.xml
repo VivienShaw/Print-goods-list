@@ -1,0 +1,319 @@
+<zuiprezi><version>7</version><zui-table><settings>
+									<autoplay>
+										<delay>4000</delay>
+									</autoplay>
+								<bounds x="-100476.09160034395" y="-61320.5386158978" width="200952.18320068787" height="122641.0772317956"/><aspectratio>off</aspectratio><languages><language>en</language></languages><mode type="normal"/></settings><object id="57_30863873" type="button" x="-21040.705338296448" y="1893.565072131827" r="0" s="2.7260423644022866" class="circle"><type>circle</type><size><w>800</w><h>800</h></size><meta><notModifiedByUser>from-template</notModifiedByUser><parentTemplate>discovery2</parentTemplate></meta></object><object id="214_13415665" type="image" x="15490.250889582976" y="3079.003647314213" r="0" s="90.01091988496718"><source w="351" h="392" bt="0.35" bl="84.05">841675051<url>841675051.swf</url></source><resource><id>841675051</id><url>https://media.preziusercontent.com/media/0/8/c/ebbd795be50b8277776d89ffc85d4a09c33fc.swf</url></resource><sourceUrl>island.swf</sourceUrl><meta><notModifiedByUser>from-template</notModifiedByUser><parentTemplate>discovery2</parentTemplate></meta></object><object id="9_13415665" type="shape" x="-100401.40247665513" y="-61245.849492208974" r="0" s="3.7344561844412465" class="poly3"><geom type="poly"><p x="-20" y="-20"/><p x="20" y="-20"/><p x="20" y="20"/><p x="-20" y="20"/><t>0</t><r>0</r></geom><meta><notModifiedByUser>from-template</notModifiedByUser><parentTemplate>discovery2</parentTemplate></meta></object><object id="10_13415665" type="shape" x="-100244.55531690858" y="-61245.849492208974" r="0" s="3.7344561844412465" class="poly3"><geom type="poly"><p x="-20" y="-20"/><p x="20" y="-20"/><p x="20" y="20"/><p x="-20" y="20"/><t>0</t><r>0</r></geom><meta><notModifiedByUser>from-template</notModifiedByUser><parentTemplate>discovery2</parentTemplate></meta></object><object id="11_13415665" type="shape" x="100371.3869624881" y="-55554.531249171094" r="-52.57478893857374" s="3.734456184441245" class="poly3"><geom type="poly"><p x="-20" y="-20"/><p x="20" y="-20"/><p x="20" y="20"/><p x="-20" y="20"/><t>0</t><r>0</r></geom><meta><notModifiedByUser>from-template</notModifiedByUser><parentTemplate>discovery2</parentTemplate></meta></object><object id="12_13415665" type="shape" x="100015.73396457976" y="58859.415297772946" r="-52.57478893857374" s="3.734456184441245" class="poly3"><geom type="poly"><p x="-20" y="-20"/><p x="20" y="-20"/><p x="20" y="20"/><p x="-20" y="20"/><t>0</t><r>0</r></geom><meta><notModifiedByUser>from-template</notModifiedByUser><parentTemplate>discovery2</parentTemplate></meta></object><object id="13_13415665" type="shape" x="-88026.36068401762" y="61215.833978041985" r="-52.57478893857374" s="3.734456184441245" class="poly3"><geom type="poly"><p x="-20" y="-20"/><p x="20" y="-20"/><p x="20" y="20"/><p x="-20" y="20"/><t>0</t><r>0</r></geom><meta><notModifiedByUser>from-template</notModifiedByUser><parentTemplate>discovery2</parentTemplate></meta></object><object id="63_30863873" type="persistentgroup" x="-1.4551915228366852e-11" y="0" r="0" s="251.61766877435613"><m o="214_13415665"/><m o="9_13415665"/><m o="10_13415665"/><m o="11_13415665"/><m o="12_13415665"/><m o="13_13415665"/><meta><notModifiedByUser>from-template</notModifiedByUser><parentTemplate>discovery2</parentTemplate></meta></object><object id="237_13415665" type="button" x="248.93049655076106" y="3116.229079633504" r="0" s="66.71432597550802" class="invisible"><type>invisible</type><size><w>983.5748475156576</w><h>554.5415775248889</h></size><meta><notModifiedByUser>from-template</notModifiedByUser><parentTemplate>discovery2</parentTemplate></meta><layout><frametype value="OVERVIEW"/></layout></object><object id="215_13415665" type="image" x="-25743.735290405395" y="2847.2768511605077" r="0" s="42.504591788039946"><source w="214" h="356" bt="22.4" bl="167.55">841675805<url>841675805.swf</url></source><resource><id>841675805</id><url>https://media.preziusercontent.com/media/8/d/5/791e2f715af139bdf8cc0bd1d5ccd26474c05.swf</url></resource><sourceUrl>bird.swf</sourceUrl><meta><notModifiedByUser>from-template</notModifiedByUser><parentTemplate>discovery2</parentTemplate></meta></object><object id="216_13415665" type="image" x="11867.747844760072" y="-4345.813850617331" r="0" s="7.400583096237996"><source w="164" h="277" bt="65.3" bl="177.3">841676263<url>841676263.swf</url></source><resource><id>841676263</id><url>https://media.preziusercontent.com/media/d/3/6/b2337ddc3a465a9412c3c23d667ce9c22f885.swf</url></resource><sourceUrl>deer.swf</sourceUrl><meta><notModifiedByUser>from-template</notModifiedByUser><parentTemplate>discovery2</parentTemplate></meta></object><object id="34_30863873" type="button" x="2050.4735583746383" y="6520.916518843673" r="-4.6647545100480245" s="8.225481993036587" class="roundrect"><type>roundrect</type><size><w>797.3088283557597</w><h>600</h></size><meta><notModifiedByUser>from-template</notModifiedByUser><parentTemplate>discovery2</parentTemplate></meta></object><object id="217_13415665" type="image" x="5653.738209122077" y="8032.674565653749" r="0" s="11.193754318846613"><source w="194" h="384" bt="8.65" bl="176.05">841676405<url>841676405.swf</url></source><resource><id>841676405</id><url>https://media.preziusercontent.com/media/d/a/2/b51831202627b482a359601060011694b6dc1.swf</url></resource><sourceUrl>ship.swf</sourceUrl><meta><notModifiedByUser>from-template</notModifiedByUser><parentTemplate>discovery2</parentTemplate></meta></object><object id="218_13415665" type="image" x="30404.21371048709" y="18903.511350010558" r="0" s="15.511296597171615"><source w="328" h="328" bt="36" bl="110.55">841676583<url>841676583.swf</url></source><resource><id>841676583</id><url>https://media.preziusercontent.com/media/8/6/7/2a8e9226237a9089f271196fd8027456e8bb2.swf</url></resource><sourceUrl>star.swf</sourceUrl><meta><notModifiedByUser>from-template</notModifiedByUser><parentTemplate>discovery2</parentTemplate></meta></object><object id="35_30863873" type="button" x="17788.7613892765" y="-8711.364555426784" r="3.749718399350939" s="2.7575980679249863" class="roundrect"><type>roundrect</type><size><w>797.3088283557597</w><h>600</h></size><meta><notModifiedByUser>from-template</notModifiedByUser><parentTemplate>discovery2</parentTemplate></meta></object><object id="45_30863873" type="button" x="15947.30517211221" y="7508.509340318624" r="0" s="1.941003407815668" class="circle"><type>circle</type><size><w>800</w><h>800</h></size><meta><notModifiedByUser>from-template</notModifiedByUser><parentTemplate>discovery2</parentTemplate></meta></object><object id="46_30863873" type="text" x="15929.31379507008" y="7144.263238948454" r="-1.6017276158877872e-31" s="4.279083200570654" class="strong"><height>65.3671875</height><width>220.4993900181616</width><p align="center"><text><![CDATA[start to pair programming]]></text></p><layout><layout-element role="title"/></layout></object><object id="32_206921253" type="image" x="15940.215606910113" y="7688.104216154262" r="0" s="0.4727121755289915"><source w="1800" h="1350">4594480005<url>4594480005.jpg</url></source><resource><id>4594480005</id><url>https://media.preziusercontent.com/media/2/f/c/065be8cbb81d8a03953eada876d2753ef3bd1.jpg</url></resource><sourceUrl>pair-programming.jpg</sourceUrl></object><object id="37_30863873" type="button" x="18276.207000260412" y="4425.53531484243" r="0" s="1.941003407815668" class="circle"><type>circle</type><size><w>800</w><h>800</h></size><meta><notModifiedByUser>from-template</notModifiedByUser><parentTemplate>discovery2</parentTemplate></meta></object><object id="38_30863873" type="text" x="18269.402697764584" y="4111.864973452653" r="-1.6017276158877872e-31" s="4.279083200570654" class="strong"><height>65.3671875</height><width>220.4993900181616</width><p align="center"><text><![CDATA[The division of tasks]]></text></p><layout><layout-element role="title"/></layout></object><object id="42_30863873" type="button" x="14095.22825235131" y="2465.2202891421252" r="0" s="1.941003407815668" class="circle"><type>circle</type><size><w>800</w><h>800</h></size><meta><notModifiedByUser>from-template</notModifiedByUser><parentTemplate>discovery2</parentTemplate></meta></object><object id="43_30863873" type="text" x="14051.73649415957" y="2056.2305405381207" r="-1.6017276158877872e-31" s="5.302460856818616" class="strong"><height>32.68359375</height><width>220.4993900181616</width><p align="center"><text><![CDATA[Sale class]]></text></p><layout><layout-element role="title"/></layout></object><object id="52_30863873" type="button" x="19327.413972989194" y="5575.096192296847" r="0" s="0.7073627579503159" class="circle"><type>circle</type><size><w>800</w><h>800</h></size><meta><notModifiedByUser>from-template</notModifiedByUser><parentTemplate>discovery2</parentTemplate></meta></object><object id="51_30863873" type="shape" x="18807.31832852303" y="5329.656008689646" r="40.61451205166505" s="14.168420115560734" class="line3"><geom type="line"><sp>-14.051542886082336 -2.1809246537399387</sp><ep>14.051542886082336 -2.1809246537399387</ep><b>4.361849307479877</b><t>8</t></geom><meta><notModifiedByUser>from-template</notModifiedByUser><parentTemplate>discovery2</parentTemplate></meta></object><object id="35_206921253" type="button" x="19331.207900207988" y="5569.8648648648905" r="0" s="0.7040497979312066" class="circle"><type>circle</type><size><w>800</w><h>800</h></size></object><object id="53_30863873" type="text" x="19318.58419958429" y="5427.848232848258" r="-1.6017276158877867e-31" s="1.5594326532691898" class="strong"><height>65.3671875</height><width>220.4993900181616</width><p align="center"><text><![CDATA[What we saw in actual situation]]></text></p><layout><layout-element role="title"/></layout></object><object id="34_206921253" type="image" x="19331.207900207988" y="5620.565488565514" r="0" s="1.0281448543368927"><source w="348" h="237">4594530566<url>4594530566.png</url></source><resource><id>4594530566</id><url>https://media.preziusercontent.com/media/2/3/e/cf6d221f2ec536d4fd11d6da1f228af6599f2.png</url></resource><sourceUrl>shopping_situation.png</sourceUrl></object><object id="56_30863873" type="text" x="-21057.397508245092" y="1855.7973772612863" r="0" s="13.017038593992831" class="strong"><height>32.68359375</height><width>-123.71484375</width><p><text><![CDATA[Thank you!]]></text></p><meta><notModifiedByUser>from-template</notModifiedByUser><parentTemplate>discovery2</parentTemplate></meta></object><object id="58_30863873" type="text" x="1896.5315850935156" y="4817.63139282446" r="-4.664754510048037" s="13.60025502966889" class="strong"><height>32.68359375</height><width>398.0021017453043</width><p align="center"><text><![CDATA[Demand Analysis]]></text></p><layout><layout-element role="title"/></layout></object><object id="60_30863873" type="text" x="17827.8" y="-9331.85" r="3.7497183993509413" s="4.830837113878431" class="strong"><height>32.68359375</height><width>398.0021017453043</width><p align="center"><text><![CDATA[Class Design View]]></text></p><layout><layout-element role="title"/></layout></object><object id="2_206921253" type="image" x="-27936.000565500613" y="-10003.16644112528" r="0" s="11.92337696308505"><source w="548" h="514">4594412900<url>4594412900.png</url></source><resource><id>4594412900</id><url>https://media.preziusercontent.com/media/c/5/f/1b848a012755fee5036dd7efb59149b8f66aa.png</url></resource><sourceUrl>thoughtWorks.png</sourceUrl></object><object id="64_30863873" type="text" x="-6626.836533117921" y="-10212.670825181585" r="0" s="121.88921742964891" class="head"><height>65.328</height><width>270.7421875</width><p><text><![CDATA[Best Programming Experience]]></text></p></object><object id="65_30863873" type="text" x="-12244.242852146355" y="-4909.477992072233" r="0" s="60.33398039601944" class="strong"><height>32.68359375</height><width>358.80738236207793</width><p><text><![CDATA[Pair Programming Competition]]></text></p></object><object id="66_30863873" type="shape" x="10958.353155442273" y="8701.732577162838" r="-5.001070530309219" s="19.83578816178502" class="line3"><geom type="arrow"><sp>-214.3804282278711 -25.29057765097727</sp><ep>214.3804282278711 -25.29057765097727</ep><b>50.58115530195454</b><t>8</t></geom><meta><notModifiedByUser>from-template</notModifiedByUser><parentTemplate>discovery2</parentTemplate></meta></object><object id="67_30863873" type="shape" x="17261.166048880757" y="6075.295618040614" r="-53.96101690616125" s="19.83578816178501" class="line3"><geom type="arrow"><sp>-54.4108898369288 -2.8495632742225454</sp><ep>54.4108898369288 -2.8495632742225454</ep><b>5.699126548445091</b><t>8</t></geom><meta><notModifiedByUser>from-template</notModifiedByUser><parentTemplate>discovery2</parentTemplate></meta></object><object id="68_30863873" type="shape" x="15919.67864499432" y="3957.2162495439056" r="23.494760743770676" s="19.83578816178502" class="line3"><geom type="arrow"><sp>78.764690113294 -8.37118411735348</sp><ep>-78.764690113294 -8.371184117353486</ep><b>-16.742368234706966</b><t>8</t></geom><meta><notModifiedByUser>from-template</notModifiedByUser><parentTemplate>discovery2</parentTemplate></meta></object><object id="69_30863873" type="shape" x="13281.42604737249" y="3184.635400858556" r="-30.000000000000195" s="14.168420115560728" class="line3"><geom type="line"><sp>-14.3447739076283 -2.1809246537399387</sp><ep>14.3447739076283 -2.1809246537399387</ep><b>4.361849307479877</b><t>8</t></geom><meta><notModifiedByUser>from-template</notModifiedByUser><parentTemplate>discovery2</parentTemplate></meta></object><object id="70_30863873" type="button" x="16730.24009438533" y="1154.037773933729" r="0" s="1.941003407815668" class="circle"><type>circle</type><size><w>800</w><h>800</h></size><meta><notModifiedByUser>from-template</notModifiedByUser><parentTemplate>discovery2</parentTemplate></meta></object><object id="71_30863873" type="text" x="16723.435791889526" y="773.2914632947906" r="-1.6017276158877872e-31" s="4.279083200570654" class="strong"><height>32.68359375</height><width>220.4993900181616</width><p align="center"><text><![CDATA[CartItem class]]></text></p><layout><layout-element role="title"/></layout></object><object id="72_30863873" type="text" x="16768.733887733964" y="1197.536382536388" r="-2.7759820227195356e-31" s="3.7064508125788067" class="body"><height>163.32</height><width>345.52377848276814</width><p><text><![CDATA[Member variables : goods , number]]></text></p><p><text><![CDATA[printItemList()]]></text></p><p><text><![CDATA[getItemSaved()]]></text></p><p><text><![CDATA[getItemPrice()]]></text></p><p><text><![CDATA[printDiscountItem()]]></text></p><layout><layout-element role="body"/></layout></object><object id="73_30863873" type="shape" x="15718.00525602963" y="2553.5173772556936" r="-29.999999999999904" s="19.835788161785008" class="line3"><geom type="arrow"><sp>-46.34929677583413 -8.275394287562712</sp><ep>46.349296775834134 -8.275394287562712</ep><b>16.550788575125424</b><t>8</t></geom><meta><notModifiedByUser>from-template</notModifiedByUser><parentTemplate>discovery2</parentTemplate></meta></object><object id="74_30863873" type="shape" x="15009.165724437238" y="706.9143968147728" r="42.569381187438026" s="19.835788161785015" class="line3"><geom type="arrow"><sp>54.57583419355525 -7.431239333390205</sp><ep>-54.57583419355525 -7.431239333390232</ep><b>-14.862478666780436</b><t>8</t></geom><meta><notModifiedByUser>from-template</notModifiedByUser><parentTemplate>discovery2</parentTemplate></meta></object><object id="0_206921253" type="text" x="-15006.355561858882" y="17550.168424082152" r="0" s="60.33398039601944" class="body"><height>32.664</height><width>-312.864</width><p><text><![CDATA[Reported by : LiHao & XiaoWen]]></text></p></object><object id="1_206921253" type="text" x="-16964.82223602414" y="20064.004492132804" r="0" s="60.33398039601944" class="body"><height>32.664</height><width>-170.664</width><p><text><![CDATA[Teacher : ZhouYu]]></text></p></object><object id="3_206921253" type="image" x="2344.9782956121353" y="6623.55680433319" r="-4.664754510048029" s="7.055906647367016"><source w="617" h="290">4594413127<url>4594413127.png</url></source><resource><id>4594413127</id><url>https://media.preziusercontent.com/media/6/0/9/22fd0aca67e8288d1530aa0b1da7b5972c2b3.png</url></resource><sourceUrl>demand_analysis.png</sourceUrl></object><object id="59_30863873" type="text" x="1628.77962541149" y="6556.4314195955585" r="-4.66475451004805" s="9.889466691442946" class="body"><height>97.992</height><width>515.8746940925018</width><p><text><![CDATA[Given……]]></text></p><p><text><![CDATA[When……]]></text></p><p><text><![CDATA[Then……]]></text></p><layout><layout-element role="body"/></layout></object><object id="4_206921253" type="button" x="-4878.840884490174" y="3844.202923655945" r="-4.664754510048027" s="3.1949724727780033" class="circle"><type>circle</type><size><w>800</w><h>800</h></size></object><object id="23_206921253" type="image" x="-4137.04430861352" y="4100.984536387584" r="-16.689137273358686" s="0.6748938647614576"><source w="746" h="363">4594476321<url>4594476321.png</url></source><resource><id>4594476321</id><url>https://media.preziusercontent.com/media/e/5/a/8864a51e1cf5561aa149395cedd74418c13cc.png</url></resource><sourceUrl>task4.png</sourceUrl></object><object id="7_206921253" type="text" x="-4875.5526874122215" y="4020.943516595833" r="-4.664754510048032" s="1.623925400677354" class="strong"><height>98.05078125</height><width>306.3078079062704</width><p align="center"><text><![CDATA[we modify these tasks]]></text></p><p align="center"><text><![CDATA[ acording to the receipt imformation]]></text></p><layout><layout-element role="title"/></layout></object><object id="8_206921253" type="button" x="-4878.8408844901705" y="3844.2029236559465" r="-4.664754510048039" s="0.9355724351691751" class="bracket"><type>bracket</type><size><w>797.6366322008862</w><h>600</h></size></object><object id="9_206921253" type="text" x="-4956.606745383723" y="3154.9968161173488" r="-1.3099716246888333" s="10.349798924219014" class="body"><height>32.664</height><width>-112.464</width><p><text><![CDATA[Basic Tasks]]></text></p></object><object id="10_206921253" type="image" x="-4886.239327915566" y="3779.096621512513" r="-4.664754510048032" s="0.6106630660645922"><source w="957" h="476">4594419559<url>4594419559.png</url></source><resource><id>4594419559</id><url>https://media.preziusercontent.com/media/b/5/1/786f5d4fae1f49112ee993f309f09c1a443f3.png</url></resource><sourceUrl>refrenceTasks.png</sourceUrl></object><object id="11_206921253" type="shape" x="-3086.768327487747" y="6742.731782884931" r="31.44536593663509" s="10.376871070551775" class="line3"><geom type="arrow"><sp>179.43721515226875 -32.377398468243676</sp><ep>-179.43721515226872 -32.37739846824371</ep><b>-64.7547969364874</b><t>8</t></geom></object><object id="12_206921253" type="button" x="-5661.600246689952" y="3484.732590071739" r="-4.664754510048037" s="0.6178788818669734" class="circle"><type>circle</type><size><w>800</w><h>800</h></size></object><object id="13_206921253" type="text" x="-5677.523635201894" y="3342.099945362449" r="-4.6647545100480485" s="1.2666718468316125" class="body"><height>65.328</height><width>-118.82400000000001</width><p><text><![CDATA[one product]]></text></p><p><text><![CDATA[no discount]]></text></p></object><object id="14_206921253" type="image" x="-5666.622089630516" y="3485.783151360625" r="-4.66475451004805" s="0.4216640345694927"><source w="914" h="339">4594426227<url>4594426227.png</url></source><resource><id>4594426227</id><url>https://media.preziusercontent.com/media/3/d/b/377c01d16bccb60fd2233d049cd7e42c02a55.png</url></resource><sourceUrl>task1.png</sourceUrl></object><object id="15_206921253" type="button" x="-5645.153145478463" y="4093.01177019826" r="-4.664754510048039" s="0.7674648715068305" class="circle"><type>circle</type><size><w>800</w><h>800</h></size></object><object id="16_206921253" type="shape" x="-5374.317777772642" y="3759.528349849919" r="42.180719267926676" s="0.8353674767335729" class="line3"><geom type="arrow"><sp>137.11386730272818 -15.073341578164827</sp><ep>-137.11386730272818 -15.073341578164882</ep><b>-30.14668315632971</b><t>8</t></geom></object><object id="17_206921253" type="shape" x="-5881.991747392837" y="3771.80342592559" r="-77.30564443568933" s="0.8353674767335728" class="line3"><geom type="arrow"><sp>111.86637242050436 21.01173429357834</sp><ep>-111.86637242050436 21.01173429357829</ep><b>42.02346858715663</b><t>8</t></geom></object><object id="18_206921253" type="text" x="-5654.425724470207" y="3909.3562304383827" r="-4.664754510048046" s="1.6239254006773574" class="body"><height>65.328</height><width>-175.05599999999998</width><p><text><![CDATA[multiple products]]></text></p><p><text><![CDATA[no discount]]></text></p></object><object id="5_206921253" type="image" x="-5651.126022937108" y="4102.200812442332" r="-4.664754510048036" s="0.6339988539003006"><source w="749" h="380">4594429118<url>4594429118.png</url></source><resource><id>4594429118</id><url>https://media.preziusercontent.com/media/f/6/8/d77cd7ca2400eee523c46620b4af3b180fb9e.png</url></resource><sourceUrl>task2.png</sourceUrl></object><object id="6_206921253" type="button" x="-4977.443921325322" y="4560.316336683021" r="-16.689137273358696" s="0.8554558682260768" class="circle"><type>circle</type><size><w>800</w><h>800</h></size></object><object id="19_206921253" type="text" x="-5021.426018975335" y="4377.872079764415" r="-16.61413701860739" s="1.8205096491929043" class="body"><height>32.664</height><width>-312.88800000000003</width><p><text><![CDATA[buy_two_get_one_free discount]]></text></p></object><object id="20_206921253" type="image" x="-4961.655057375908" y="4590.573273432631" r="-16.689137273358693" s="0.7164564967549214"><source w="747" h="410">4594471674<url>4594471674.png</url></source><resource><id>4594471674</id><url>https://media.preziusercontent.com/media/4/f/9/f1060d50d3b9226716cdd4e82d4412a1380f4.png</url></resource><sourceUrl>task3.png</sourceUrl></object><object id="21_206921253" type="button" x="-4137.04430861352" y="4100.984536387584" r="-16.68913727335869" s="0.775420081117102" class="circle"><type>circle</type><size><w>800</w><h>800</h></size></object><object id="22_206921253" type="text" x="-4207.10662833179" y="3957.7795203452906" r="-16.689137273358693" s="1.6239254006773578" class="body"><height>32.664</height><width>-149.736</width><p><text><![CDATA[5% off discount]]></text></p></object><object id="24_206921253" type="button" x="-4205.971237010534" y="3416.9585052907382" r="-16.68913727335869" s="0.5624998845340936" class="circle"><type>circle</type><size><w>800</w><h>800</h></size></object><object id="25_206921253" type="text" x="-4230.767453723881" y="3305.757850602684" r="-16.689137273358686" s="1.0923443486056306" class="body"><height>65.328</height><width>252.61754855183003</width><p><text><![CDATA[multiple products ]]></text></p><p><text><![CDATA[and two kind of discount]]></text></p></object><object id="26_206921253" type="image" x="-4203.021907269298" y="3426.024963384165" r="-16.689137273358696" s="0.5000420512376001"><source w="750" h="304">4594477648<url>4594477648.png</url></source><resource><id>4594477648</id><url>https://media.preziusercontent.com/media/3/f/1/18c44615ec4b52e9cc892c058939b193f5f75.png</url></resource><sourceUrl>task5.png</sourceUrl></object><object id="27_206921253" type="shape" x="-5525.669189623968" y="4529.418750763457" r="25.33524555789523" s="1.092344348605632" class="line3"><geom type="arrow"><sp>-157.98210395984634 -32.24478939359658</sp><ep>157.9821039598463 -32.24478939359658</ep><b>64.48957878719315</b><t>8</t></geom></object><object id="28_206921253" type="shape" x="-4412.769494364092" y="4578.723926461723" r="-32.23327392506588" s="1.0923443486056315" class="line3"><geom type="arrow"><sp>-195.52304226733767 -31.615888031328097</sp><ep>195.52304226733767 -31.615888031328097</ep><b>63.231776062656195</b><t>8</t></geom></object><object id="29_206921253" type="shape" x="-3993.988787948132" y="3670.2115853765604" r="-79.66475444210474" s="1.09234434860563" class="line3"><geom type="arrow"><sp>-105.13080034526236 -25.13513432722408</sp><ep>105.13080034526236 -25.13513432722408</ep><b>50.27026865444816</b><t>8</t></geom></object><object id="30_206921253" type="text" x="10915.988504442581" y="8782.982228183608" r="-4.66475451004805" s="20.48273371544084" class="body"><height>32.664</height><width>-126.072</width><p><text><![CDATA[Start Coding]]></text></p></object><object id="31_206921253" type="text" x="-2961.113074447828" y="6612.875319536204" r="35.98751398153618" s="13.600255029668894" class="body"><height>32.664</height><width>-145.224</width><p><text><![CDATA[complete tasks]]></text></p></object><object id="33_206921253" type="text" x="18280.313217964373" y="4509.299626228772" r="0" s="3.1444388964246044" class="body"><style fontFamily="custom-comfortaa" font-family="Comfortaa"/><style fontFamily="custom-comfortaa" font-family="Comfortaa"/><height>120</height><width>-315.703125</width><p><text><![CDATA[XiaoWen : achieve tasks]]></text></p><p><text><![CDATA[]]></text></p><p><text><![CDATA[LiHao : refactor and ]]></text></p><p><text><![CDATA[             achieve some tasks]]></text></p></object><object id="36_206921253" type="text" x="18791.4" y="5619.15" r="0" s="1.5594326532691898" class="body"><height>32.664</height><width>-292.72800000000007</width><p><text><![CDATA[what classes should we have  ?]]></text></p></object><object id="38_206921253" type="button" x="14076.455301455366" y="-915.1496881496921" r="0" s="1.8678885893938169" class="circle"><type>circle</type><size><w>800</w><h>800</h></size></object><object id="39_206921253" type="text" x="14076.318087318152" y="-1329.7422037422093" r="0" s="5.488565488565514" class="strong"><height>32.68359375</height><width>-110.8125</width><p><text><![CDATA[Cart class]]></text></p></object><object id="40_206921253" type="text" x="13760.108594929283" y="-876.6784717844286" r="0" s="2.8255218245574696" class="body"><height>195.98399999999998</height><width>190.47752479060355</width><p><text><![CDATA[addItem()]]></text></p><p><text><![CDATA[judgeSale()]]></text></p><p><text><![CDATA[getItemByGoods()]]></text></p><p><text><![CDATA[setSale()]]></text></p><p><text><![CDATA[setSale_BTOF()]]></text></p><p><text><![CDATA[isContainGoods()]]></text></p></object><object id="41_206921253" type="text" x="14369.68191268198" y="-922.765072765077" r="0" s="2.8255218245574696" class="body"><height>163.32</height><width>-245.92800000000003</width><p><text><![CDATA[printTotalPrice()]]></text></p><p><text><![CDATA[getBuyTwoFreeOneList()]]></text></p><p><text><![CDATA[getAllCost()]]></text></p><p><text><![CDATA[getCartItemString()]]></text></p><p><text><![CDATA[getSavedMoney()]]></text></p></object><object id="0" type="button" x="12584.3" y="3273" r="0" s="0.9164596460636293" class="circle"><type>circle</type><size><w>800</w><h>800</h></size></object><object id="1" type="image" x="12579.699999999999" y="3310.05" r="0" s="0.9508844212052842"><source w="467" h="422">RgXkBAds6bcSdta.png<url>RgXkBAds6bcSdta.png</url></source><resource><id>4594540495</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/4/1/e/b893e554b4ca223f11521937dc3ebd3778e15.png</url></resource><sourceUrl>6YM_M%60NN%40%7D)%24DBPGEG1G4OD.png</sourceUrl></object><object id="2" type="text" x="12579.7" y="3051.85" r="0" s="2" class="body"><height>32.664</height><width>-199.72799999999998</width><p><text><![CDATA[A goods list example]]></text></p></object><object id="3" type="text" x="14075.684398047752" y="2304.775953878396" r="0" s="5.302460856818616" class="strong"><height>32.68359375</height><width>-110.8125</width><p><text><![CDATA[Cart class]]></text></p></object><object id="4" type="text" x="14075.74635595565" y="2542.942151849174" r="0" s="5.302460856818616" class="strong"><height>32.68359375</height><width>-164.9296875</width><p><text><![CDATA[CartItem class]]></text></p></object><object id="5" type="text" x="14075.560482231947" y="2801.864248966728" r="0" s="5.302460856818616" class="strong"><height>32.68359375</height><width>-132.17578125</width><p><text><![CDATA[Goods class]]></text></p></object><object id="6" type="text" x="14523.392240539122" y="2801.926206874629" r="0" s="5.302460856818616" class="strong"><height>32.68359375</height><width>-20.53125</width><p><text><![CDATA[...]]></text></p></object><object id="9" type="image" x="17784" y="-8566.9" r="3.749718399350939" s="2.9789341512661034"><source w="720" h="405">eNi54NZgVHuhsOU.png<url>eNi54NZgVHuhsOU.png</url></source><sourceUrl>9%24AH%40%40%25%601%6079HD7EROC%5DW4P.png</sourceUrl></object></zui-table><path><s><eagle o="237_13415665"/></s><s><eagle o="34_30863873"/></s><s><eagle o="4_206921253"/></s><s><eagle o="8_206921253"/></s><s><eagle o="10_206921253"/></s><s><eagle o="8_206921253"/></s><s><eagle o="12_206921253"/></s><s><eagle o="14_206921253"/></s><s><eagle o="12_206921253"/></s><s><eagle o="15_206921253"/></s><s><eagle o="5_206921253"/></s><s><eagle o="15_206921253"/></s><s><eagle o="6_206921253"/></s><s><eagle o="20_206921253"/></s><s><eagle o="6_206921253"/></s><s><eagle o="21_206921253"/></s><s><eagle o="23_206921253"/></s><s><eagle o="21_206921253"/></s><s><eagle o="24_206921253"/></s><s><eagle o="26_206921253"/></s><s><eagle o="24_206921253"/></s><s><eagle o="4_206921253"/></s><s><eagle o="45_30863873"/></s><s><eagle o="37_30863873"/></s><s><eagle o="52_30863873"/></s><s><eagle o="36_206921253"/></s><s><eagle o="42_30863873"/></s><s><eagle o="0"/></s><s><eagle o="42_30863873"/></s><s><eagle o="70_30863873"/></s><s><eagle o="38_206921253"/></s><s><eagle o="35_30863873"/></s><s><eagle o="237_13415665"/></s><s><eagle o="57_30863873"/></s></path><style type="text/css"><![CDATA[
+@font-face
+{
+	src: url('Alegreya-Regular.keg');
+	fontFamily: body;
+	font-class: body;
+	font-style: normal;
+	font-weight: normal;
+	font-family: Alegreya;
+}
+
+@font-face
+{
+	src: url('Comfortaa-Regular.keg');
+	fontFamily: custom-comfortaa;
+	font-class: custom-comfortaa;
+	font-style: normal;
+	font-weight: normal;
+	font-family: Comfortaa-Regular;
+}
+
+@font-face
+{
+	src: url('Alegreya-BoldItalic.keg');
+	fontFamily: head;
+	font-class: head;
+	font-style: italic;
+	font-weight: bold;
+	font-family: Alegreya;
+}
+
+@font-face
+{
+	src: url('NotoSans-BoldItalic.keg');
+	fontFamily: strong;
+	font-class: strong;
+	font-style: italic;
+	font-weight: bold;
+	font-family: NotoSans;
+}
+
+@font-face
+{
+	src: url('Alegreya-Bold.keg');
+	font-style: normal;
+	font-weight: bold;
+	font-family: Alegreya;
+}
+
+@font-face
+{
+	src: url('Alegreya-Italic.keg');
+	font-style: italic;
+	font-weight: normal;
+	font-family: Alegreya;
+}
+
+@font-face
+{
+	src: url('NotoSans-Regular.keg');
+	font-style: normal;
+	font-weight: normal;
+	font-family: NotoSans;
+}
+
+@font-face
+{
+	src: url('NotoSans-Italic.keg');
+	font-style: italic;
+	font-weight: normal;
+	font-family: NotoSans;
+}
+
+@font-face
+{
+	src: url('NotoSans-Bold.keg');
+	font-style: normal;
+	font-weight: bold;
+	font-family: NotoSans;
+}
+
+.line1
+{
+	color: #a6411c;
+	gradEndColor: #a6411c;
+	gradStartColor: #a6411c;
+}
+
+.line2
+{
+	color: #6e8254;
+	gradEndColor: #6e8254;
+	gradStartColor: #6e8254;
+}
+
+.line3
+{
+	color: #cce1b1;
+	gradEndColor: #cce1b1;
+	gradStartColor: #cce1b1;
+}
+
+.line4
+{
+	color: #7494cf;
+	gradEndColor: #7494cf;
+	gradStartColor: #7494cf;
+}
+
+.line5
+{
+	color: #fff;
+	gradEndColor: #fff;
+	gradStartColor: #fff;
+}
+
+.poly1
+{
+	color: #9bb58c;
+	gradEndColor: #a6411c;
+	gradStartColor: #a6411c;
+}
+
+.poly2
+{
+	color: #9bb58c;
+	gradEndColor: #6e8254;
+	gradStartColor: #6e8254;
+}
+
+.poly3
+{
+	color: #9bb58c;
+	gradEndColor: #cce1b1;
+	gradStartColor: #cce1b1;
+}
+
+.poly4
+{
+	color: #9bb58c;
+	gradEndColor: #7494cf;
+	gradStartColor: #7494cf;
+}
+
+.poly5
+{
+	color: #9bb58c;
+	gradEndColor: #fff;
+	gradStartColor: #fff;
+}
+
+Background
+{
+	gradEnd: #9bb58c;
+	gradStart: #9bb58c;
+}
+
+Grid
+{
+	color: #c0e0ad;
+}
+
+ZArrow
+{
+	borderAlpha: 0;
+	borderThickness: 0;
+	gradEndAlpha: 1;
+	gradStartAlpha: 1;
+}
+
+ZCircle
+{
+	borderAlpha: 0;
+	borderThickness: 0;
+	gradEndAlpha: 1;
+	gradStartAlpha: 1;
+	radius: 0;
+	thickness: 100;
+}
+
+ZCurveLine
+{
+	color: #fff;
+}
+
+ZFrame.bracket
+{
+	borderAlpha: 0;
+	borderThickness: 0;
+	gradEndAlpha: 0.9;
+	gradEndColor: #a6411c;
+	gradStartAlpha: 0.9;
+	gradStartColor: #a6411c;
+	padding: 1.03;
+	thickness: 9;
+}
+
+ZFrame.circle
+{
+	borderAlpha: 0;
+	borderThickness: 0;
+	gradEndAlpha: 1;
+	gradEndColor: #fff;
+	gradStartAlpha: 1;
+	gradStartColor: #fff;
+	padding: 1.03;
+	thickness: 10;
+}
+
+ZFrame.roundrect
+{
+	borderAlpha: 0;
+	borderColor: #664c44;
+	borderThickness: 0;
+	gradEndAlpha: .85;
+	gradEndColor: #eddfb8;
+	gradStartAlpha: .85;
+	gradStartColor: #eddfb8;
+	padding: 1.03;
+	radius: 1;
+}
+
+ZLabel
+{
+	lockTintAlpha: 0.15;
+	padding: 1.2;
+}
+
+ZLabel.body
+{
+	color: #000;
+	fontFamily: body;
+}
+
+ZLabel.body-background
+{
+	background-alpha: 0.7;
+	background-color: #fff;
+	background-padding: 4;
+}
+
+ZLabel.head
+{
+	color: #000;
+	fontFamily: head;
+}
+
+ZLabel.head-background
+{
+	background-alpha: 0.8;
+	background-color: #6e8254;
+	background-padding: 4;
+}
+
+ZLabel.strong
+{
+	color: #a6411c;
+	fontFamily: strong;
+}
+
+ZLabel.strong-background
+{
+	background-alpha: 0.8;
+	background-color: #c7e2b5;
+	background-padding: 4;
+}
+
+ZLine
+{
+	borderAlpha: 0;
+	borderThickness: 0;
+	color: #fff;
+	gradEndAlpha: 1;
+	gradStartAlpha: 1;
+}
+
+ZMarker
+{
+	alpha: 0.6;
+	color: #eddf36;
+}
+
+ZPath
+{
+	alpha: 1;
+	color: #40abe6;
+	textColor: #fff;
+	thickness: 3;
+}
+
+ZPath Ball.base
+{
+	alpha: 1;
+	fillColor: #40abe6;
+	radius: 12;
+}
+
+ZPath Ball.mid
+{
+	alpha: .5;
+	fillColor: #40abe6;
+	radius: 8;
+}
+
+ZPoly
+{
+	borderAlpha: 0;
+	borderThickness: 0;
+	gradEndAlpha: 1;
+	gradStartAlpha: 1;
+	radius: 0;
+	thickness: 100;
+}
+
+]]></style><hash>-16b7f62b</hash><config>yF7hUBcBl9o6+wAbC6UBS9hZzJcnaSS9Xw==</config></zuiprezi>

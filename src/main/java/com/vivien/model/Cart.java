@@ -44,7 +44,7 @@ public class Cart {
         return null;
     }
 
-    public void setSale(CartItem item) {
+    private void setSale(CartItem item) {
         if (item.getGoods().getDiscountType() == 2 || item.getGoods().getDiscountType() == 3) {
             isSale =  true;
             return;
@@ -56,7 +56,7 @@ public class Cart {
         }
     }
 
-    public void setSale_BTFO(CartItem item) {
+    private void setSale_BTFO(CartItem item) {
         if ((item.getGoods().getDiscountType() == 1 || item.getGoods().getDiscountType() == 3)
                 && item.getNumber() >2 ) {
             isSale_BTFO = true;
@@ -71,7 +71,7 @@ public class Cart {
         return false;
     }
 
-    public String getTotalPrice() {
+    public String printTotalPrice() {
 
         String str = isSale ? "节省: " + getSavedMoney() + "(元)\n" : "" ;
 
