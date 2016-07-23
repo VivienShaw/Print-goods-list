@@ -2,10 +2,62 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9d50f85e-a4e4-4179-b137-f49a216c5eac" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/vivien/Sales.java" afterPath="$PROJECT_DIR$/src/main/java/com/vivien/Sales.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/vivien/model/Cart.java" afterPath="$PROJECT_DIR$/src/main/java/com/vivien/model/Cart.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/Tasks" afterPath="$PROJECT_DIR$/src/test/Tasks" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamShow-prezi/Prezi.exe" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamShow-prezi/PreziForMac.tar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamShow-prezi/content/Adobe AIR/Versions/1.0/Adobe AIR.dll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamShow-prezi/content/Adobe AIR/Versions/1.0/Resources/Adobe AIR.vch" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamShow-prezi/content/Adobe AIR/Versions/1.0/Resources/AdobeCP.dll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamShow-prezi/content/Adobe AIR/Versions/1.0/Resources/AdobeCP15.dll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamShow-prezi/content/Adobe AIR/Versions/1.0/Resources/CaptiveAppEntry.exe" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamShow-prezi/content/Adobe AIR/Versions/1.0/Resources/NPSWF32.dll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamShow-prezi/content/Adobe AIR/Versions/1.0/Resources/WebKit.dll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamShow-prezi/content/Adobe AIR/Versions/1.0/Resources/WebKit/LGPL License.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamShow-prezi/content/Adobe AIR/Versions/1.0/Resources/WebKit/Notice WebKit.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamShow-prezi/content/Adobe AIR/Versions/1.0/Resources/adobecp.vch" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamShow-prezi/content/META-INF/AIR/application.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamShow-prezi/content/META-INF/AIR/hash" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamShow-prezi/content/META-INF/signatures.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamShow-prezi/content/Prezi.exe" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamShow-prezi/content/data/SkinOverPlaySeekMute.swf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamShow-prezi/content/data/content.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamShow-prezi/content/data/fonts/Alegreya-Bold.keg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamShow-prezi/content/data/fonts/Alegreya-BoldItalic.keg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamShow-prezi/content/data/fonts/Alegreya-Italic.keg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamShow-prezi/content/data/fonts/Alegreya-Regular.keg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamShow-prezi/content/data/fonts/Comfortaa-Regular.keg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamShow-prezi/content/data/fonts/NotoSans-Bold.keg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamShow-prezi/content/data/fonts/NotoSans-BoldItalic.keg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamShow-prezi/content/data/fonts/NotoSans-Italic.keg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamShow-prezi/content/data/fonts/NotoSans-Regular.keg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamShow-prezi/content/data/fonts/font-information.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamShow-prezi/content/data/main.swf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamShow-prezi/content/data/modules/layout.module" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamShow-prezi/content/data/repo/4594412900.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamShow-prezi/content/data/repo/4594413127.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamShow-prezi/content/data/repo/4594419559.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamShow-prezi/content/data/repo/4594426227.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamShow-prezi/content/data/repo/4594429118.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamShow-prezi/content/data/repo/4594471674.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamShow-prezi/content/data/repo/4594476321.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamShow-prezi/content/data/repo/4594477648.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamShow-prezi/content/data/repo/4594480005.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamShow-prezi/content/data/repo/4594530566.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamShow-prezi/content/data/repo/841675051.swf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamShow-prezi/content/data/repo/841675805.swf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamShow-prezi/content/data/repo/841676263.swf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamShow-prezi/content/data/repo/841676405.swf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamShow-prezi/content/data/repo/841676583.swf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamShow-prezi/content/data/repo/RgXkBAds6bcSdta.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamShow-prezi/content/data/repo/eNi54NZgVHuhsOU.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamShow-prezi/content/icon/PreziDesktop.icns" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamShow-prezi/content/icon/app/icon_128x128.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamShow-prezi/content/icon/app/icon_16x16.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamShow-prezi/content/icon/app/icon_256x256.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamShow-prezi/content/icon/app/icon_32x32.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamShow-prezi/content/icon/app/icon_48x48.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamShow-prezi/content/icon/app/icon_512x512.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamShow-prezi/content/loader-air-local.swf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamShow-prezi/content/mimetype" afterPath="" />
     </list>
     <ignored path="Print-goods-list.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -20,7 +72,6 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
@@ -50,7 +101,7 @@
       <file leaf-file-name="SalesTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/vivien/SalesTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3288">
+            <state relative-caret-position="4247">
               <caret line="141" column="1" selection-start-line="141" selection-start-column="1" selection-end-line="141" selection-end-column="1" />
               <folding />
             </state>
@@ -60,7 +111,7 @@
       <file leaf-file-name="GoodsRepo.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/vivien/repository/GoodsRepo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="576">
+            <state relative-caret-position="744">
               <caret line="30" column="39" selection-start-line="30" selection-start-column="28" selection-end-line="30" selection-end-column="39" />
               <folding />
             </state>
@@ -70,11 +121,10 @@
       <file leaf-file-name="CartItem.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/vivien/model/CartItem.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="293">
+            <state relative-caret-position="454">
               <caret line="69" column="28" selection-start-line="69" selection-start-column="28" selection-end-line="69" selection-end-column="28" />
               <folding>
                 <element signature="e#2150#2151#0" expanded="true" />
-                <marker date="1469071818209" expanded="true" signature="34:38" ph="..." />
               </folding>
             </state>
           </provider>
@@ -83,7 +133,7 @@
       <file leaf-file-name="Cart.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/vivien/model/Cart.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
+            <state relative-caret-position="558">
               <caret line="22" column="23" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="23" />
               <folding />
             </state>
@@ -93,7 +143,7 @@
       <file leaf-file-name="Goods.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/vivien/bean/Goods.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
+            <state relative-caret-position="341">
               <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
               <folding>
                 <element signature="e#1441#1442#0" expanded="true" />
@@ -106,11 +156,9 @@
       <file leaf-file-name="Sales.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/vivien/Sales.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
+            <state relative-caret-position="217">
               <caret line="16" column="45" selection-start-line="16" selection-start-column="45" selection-end-line="16" selection-end-column="45" />
-              <folding>
-                <marker date="1469110013914" expanded="true" signature="1992:1999" ph="{...}" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -448,13 +496,13 @@
         <option value="D:/learning_program/JAVA/jdk/jre/lib/rt.jar!/sun/reflect/NativeMethodAccessorImpl.class" />
         <option value="$PROJECT_DIR$/src/main/resources/discountInfo" />
         <option value="$PROJECT_DIR$/src/main/java/com/vivien/repository/GoodsRepo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/vivien/model/CartItem.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/vivien/SalesTest.java" />
         <option value="$PROJECT_DIR$/src/main/resources/inputBarcodes" />
         <option value="$PROJECT_DIR$/src/main/java/com/vivien/Main.java" />
         <option value="$PROJECT_DIR$/src/test/Tasks" />
         <option value="$PROJECT_DIR$/src/main/java/com/vivien/Sales.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/vivien/model/Cart.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/vivien/model/CartItem.java" />
       </list>
     </option>
   </component>
@@ -472,10 +520,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="162" />
-    <option name="y" value="128" />
-    <option name="width" value="1378" />
-    <option name="height" value="744" />
+    <option name="x" value="-11" />
+    <option name="y" value="-11" />
+    <option name="width" value="1942" />
+    <option name="height" value="1102" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -502,6 +550,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -538,7 +587,6 @@
       </pane>
       <pane id="Scratches" />
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -709,11 +757,19 @@
       <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
       <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
       <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Java" />
       <option name="USE_LAST_SELECTED_DEVICE" value="false" />
       <option name="PREFERRED_AVD" value="" />
+      <Java />
+      <Profilers>
+        <option name="GAPID_DISABLE_PCS" value="false" />
+      </Profilers>
       <option name="DEEP_LINK" value="" />
       <option name="ACTIVITY_CLASS" value="" />
-      <method />
+      <method>
+        <option name="Make" enabled="true" />
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
       <module name="" />
@@ -729,9 +785,17 @@
       <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
       <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
       <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Java" />
       <option name="USE_LAST_SELECTED_DEVICE" value="false" />
       <option name="PREFERRED_AVD" value="" />
-      <method />
+      <Java />
+      <Profilers>
+        <option name="GAPID_DISABLE_PCS" value="false" />
+      </Profilers>
+      <method>
+        <option name="Make" enabled="true" />
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
@@ -756,6 +820,136 @@
       <envs />
       <method />
     </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Cold Fusion runner description" factoryName="Cold Fusion" custom_browser="" web_path="">
+      <method />
+    </configuration>
+    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="myFilePath" />
+      <option name="GLUE" />
+      <option name="myNameFilter" />
+      <option name="myGeneratedName" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
+      <option name="BCName" value="" />
+      <option name="IOSSimulatorSdkPath" value="" />
+      <option name="adlOptions" value="" />
+      <option name="airProgramParameters" value="" />
+      <option name="appDescriptorForEmulator" value="Android" />
+      <option name="debugTransport" value="USB" />
+      <option name="debuggerSdkRaw" value="BC SDK" />
+      <option name="emulator" value="NexusOne" />
+      <option name="emulatorAdlOptions" value="" />
+      <option name="fastPackaging" value="true" />
+      <option name="fullScreenHeight" value="0" />
+      <option name="fullScreenWidth" value="0" />
+      <option name="launchUrl" value="false" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="FlashPlayerDebugger.exe" />
+        </LauncherParameters>
+      </option>
+      <option name="mobileRunTarget" value="Emulator" />
+      <option name="moduleName" value="" />
+      <option name="overriddenMainClass" value="" />
+      <option name="overriddenOutputFileName" value="" />
+      <option name="overrideMainClass" value="false" />
+      <option name="runTrusted" value="true" />
+      <option name="screenDpi" value="0" />
+      <option name="screenHeight" value="0" />
+      <option name="screenWidth" value="0" />
+      <option name="url" value="http://" />
+      <option name="usbDebugPort" value="7936" />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" package_name="" scope="Class">
+      <option name="BCName" value="" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="FlashPlayerDebugger.exe" />
+        </LauncherParameters>
+      </option>
+      <option name="moduleName" value="" />
+      <option name="trusted" value="true" />
+      <method />
+    </configuration>
     <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -770,6 +964,14 @@
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
+      <setting name="vmparams" value="" />
+      <setting name="cmdLine" value="run-app" />
+      <setting name="passParentEnv" value="true" />
+      <setting name="launchBrowser" value="true" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <method />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
@@ -835,6 +1037,9 @@
       <envs />
       <method />
     </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
     <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" />
@@ -866,6 +1071,12 @@
       <option name="SHMEM_ADDRESS" value="javadebug" />
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -924,6 +1135,22 @@
       <listeners />
       <method />
     </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="osgi.bnd.run" factoryName="Run Launcher">
+      <method />
+    </configuration>
+    <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
+      <method />
+    </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="JUnit.SalesTest" />
       <item index="1" class="java.lang.String" itemvalue="JUnit.SalesTest.should_return_goodsList_with_discount_when_input_3_ITEM000003_with_buy_two_get_one_free_discount" />
@@ -955,6 +1182,7 @@
       <option name="presentableId" value="Default" />
       <updated>1468847149238</updated>
       <workItem from="1469009855442" duration="18678000" />
+      <workItem from="1469264855806" duration="30000" />
     </task>
     <servers />
   </component>
@@ -991,7 +1219,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18678000" />
+    <option name="totallyTimeSpent" value="18708000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1003,7 +1231,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="162" y="128" width="1378" height="744" extended-state="0" />
+    <frame x="-11" y="-11" width="1942" height="1102" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1012,25 +1240,25 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998884" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.47278547" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.57525086" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3120915" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3110368" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18361153" sideWeight="0.4922179" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18358532" sideWeight="0.4922179" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14362851" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37235227" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2473525" sideWeight="0.5077821" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37235227" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32552955" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.47380155" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -1062,7 +1290,6 @@
           <caret line="56" column="22" selection-start-line="56" selection-start-column="22" selection-end-line="56" selection-end-column="22" />
           <folding>
             <element signature="e#2150#2151#0" expanded="true" />
-            <marker date="1469071818209" expanded="true" signature="34:38" ph="..." />
           </folding>
         </state>
       </provider>
@@ -1090,9 +1317,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
           <caret line="23" column="44" selection-start-line="23" selection-start-column="44" selection-end-line="23" selection-end-column="44" />
-          <folding>
-            <marker date="1469110013914" expanded="true" signature="1992:1999" ph="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1118,7 +1343,6 @@
           <caret line="33" column="18" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="18" />
           <folding>
             <element signature="e#2150#2151#0" expanded="true" />
-            <marker date="1469071818209" expanded="true" signature="34:38" ph="..." />
           </folding>
         </state>
       </provider>
@@ -1153,9 +1377,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="775">
           <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-          <folding>
-            <marker date="1469110013914" expanded="true" signature="1992:1999" ph="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1178,9 +1400,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="456">
           <caret line="22" column="21" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
-          <folding>
-            <marker date="1469110013914" expanded="true" signature="1992:1999" ph="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1214,9 +1434,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="528">
           <caret line="22" column="21" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
-          <folding>
-            <marker date="1469110013914" expanded="true" signature="1992:1999" ph="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1235,9 +1453,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
           <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
-          <folding>
-            <marker date="1469110013914" expanded="true" signature="1992:1999" ph="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1253,9 +1469,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
           <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
-          <folding>
-            <marker date="1469110013914" expanded="true" signature="1992:1999" ph="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1271,9 +1485,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
           <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
-          <folding>
-            <marker date="1469110013914" expanded="true" signature="1992:1999" ph="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1416,7 +1628,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/vivien/SalesTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3288">
+        <state relative-caret-position="4247">
           <caret line="141" column="1" selection-start-line="141" selection-start-column="1" selection-end-line="141" selection-end-column="1" />
           <folding />
         </state>
@@ -1424,7 +1636,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/vivien/repository/GoodsRepo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
+        <state relative-caret-position="744">
           <caret line="30" column="39" selection-start-line="30" selection-start-column="28" selection-end-line="30" selection-end-column="39" />
           <folding />
         </state>
@@ -1432,18 +1644,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/vivien/model/CartItem.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
+        <state relative-caret-position="454">
           <caret line="69" column="28" selection-start-line="69" selection-start-column="28" selection-end-line="69" selection-end-column="28" />
           <folding>
             <element signature="e#2150#2151#0" expanded="true" />
-            <marker date="1469071818209" expanded="true" signature="34:38" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/vivien/model/Cart.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
+        <state relative-caret-position="558">
           <caret line="22" column="23" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="23" />
           <folding />
         </state>
@@ -1451,7 +1662,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/vivien/bean/Goods.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
+        <state relative-caret-position="341">
           <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
           <folding>
             <element signature="e#1441#1442#0" expanded="true" />
@@ -1462,11 +1673,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/vivien/Sales.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
+        <state relative-caret-position="217">
           <caret line="16" column="45" selection-start-line="16" selection-start-column="45" selection-end-line="16" selection-end-column="45" />
-          <folding>
-            <marker date="1469110013914" expanded="true" signature="1992:1999" ph="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
