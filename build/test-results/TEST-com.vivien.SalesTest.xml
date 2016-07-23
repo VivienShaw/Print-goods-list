@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.vivien.SalesTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2016-07-18T14:17:17" hostname="DESKTOP-F0S8BPK" time="0.007">
-  <properties/>
-  <testcase name="should_return_goodsList_when_input_ITEM000001" classname="com.vivien.SalesTest" time="0.007"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
